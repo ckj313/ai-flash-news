@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI快报 - 每日精选</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #e0e0e0;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; margin-bottom: 40px; }
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .subtitle { color: #888; font-size: 1rem; }
+        .last-update { color: #666; font-size: 0.85rem; margin-top: 10px; }
+        
+        .day-section {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .day-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .day-date {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #00d4ff;
+        }
+        .day-count {
+            background: rgba(0,212,255,0.2);
+            color: #00d4ff;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+        
+        .article {
+            padding: 16px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .article:last-child { border-bottom: none; }
+        .article-title {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        .article-title a {
+            color: #e0e0e0;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .article-title a:hover { color: #00d4ff; }
+        .article-desc {
+            color: #999;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .article-meta {
+            margin-top: 8px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+        
+        .tag {
+            display: inline-block;
+            background: rgba(123,44,191,0.3);
+            color: #c77dff;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            margin-right: 6px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.85rem;
+        }
+        footer a { color: #00d4ff; }
+        
+        .rss-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(255,165,0,0.2);
+            color: #ffa500;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+        .rss-badge:hover { background: rgba(255,165,0,0.3); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI快报</h1>
+            <p class="subtitle">每日 AI 技术资讯精选</p>
+            <a href="https://tech.armyja-online.uk/rss" class="rss-badge" target="_blank">
+                <span>📡</span> RSS 源
+            </a>
+            <p class="last-update">最后更新：2026-03-19 10:19</p>
+        </header>
+        
+        <main id="content">
+            
+        <div class="day-section">
+            <div class="day-header">
+                <span class="day-date">03月19日 (四)</span>
+                <span class="day-count">4 篇</span>
+            </div>
+            
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/MiniMax_AI/status/2034315320337522881" target="_blank" rel="noopener">MiniMax发布自演进AI模型M2.7 对M2.5胜率88%</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文由MiniMax官方发布，主要介绍其新模型**MiniMax-M2.7**。该模型是首个深度参与自身演进的版本，对上一代M2.5胜率达88%，并在生产级软件工程（如SWE-Pro、Terminal Bench 2）、高级代理任务（技能遵循率97%）以及专业办公文件编辑等能力上达到行业领先水平，同时展示了其Agent服务、API接入和Token定价计划。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/berryxia/status/2034278850092531993" target="_blank" rel="noopener">YOLOS-small：纯Vision Transformer高效物体检测</a>
+                </div>
+                <div class="article-desc">该推文介绍了名为 **YOLOS-small** 的纯 Vision Transformer 物体检测模型（参数量仅 30.7M），它摒弃了传统 CNN 结构，在 COCO 数据集上达到 36.1% 的 AP 精度，采用 Apache-2.0 开源许可且下载量超 50 万，适用于安防监控、机器人避障等多种场景，并提供了演示代码链接。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/op7418/status/2034404031758839851" target="_blank" rel="noopener">小米发布三款顶级AI模型</a>
+                </div>
+                <div class="article-desc">小米发布了三个顶级AI模型：MiMo‑V2‑Pro（主打Agent与代码能力，参数超1T，支持100万上下文，性能接近Claude Sonnet 4.6但价格仅为其五分之一）、MiMo‑V2‑Omni（多模态模型，支持图像、视频及长音频理解，在音频和视觉推理上超越Gemini 3 Pro与Claude 4.6 Opus）和MiMo‑V2‑TTS（语音模型，支持精细情绪控制和方言等），这三个模型将提...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/dontbesilent/status/2034180260049363291" target="_blank" rel="noopener">顶级的 Skill 长什么样</a>
+                </div>
+                <div class="article-desc">这篇文章（推文）主要描述了作者使用了YC CEO开发的一个名为「plan-ceo-review」的skill，通过让Claude Code扫描本地文件夹自动理解其商业模式，并直接执行该skill而无需添加任何提示词，以此展示顶级skill的高效、自动化能力和便捷性。</div>
+            </div>
+        </div>
+
+        <div class="day-section">
+            <div class="day-header">
+                <span class="day-date">03月18日 (三)</span>
+                <span class="day-count">7 篇</span>
+            </div>
+            
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/shao__meng/status/2034229342444962007" target="_blank" rel="noopener">Awesome Codex Subagents项目发布 收录136领域专精AI助手</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，这篇推文主要介绍了GitHub上刚出现的“Awesome Codex Subagents”项目，该项目收录了136个专门为OpenAI Codex的Subagents功能设计的AI助手，覆盖10大技术领域（如核心开发、语言专家、基础设施等），并详细说明了Subagents具备独立上下文、显式委派、智能模型路由和沙箱分级等特性，适用于大型协作项目、多Agent并行处...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/KKaWSB/status/2034196862794961299" target="_blank" rel="noopener">Google公布5种Agent设计模式</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文的核心内容是：Google近日一次性发布了5个Agent Skill设计模式（Tool Wrapper、Generator、Reviewer、Inversion、Pipeline），旨在解决在统一SKILL.md格式后，如何设计有效Agent能力内容的核心挑战。文章强调这些模式可组合使用（如在Pipeline中嵌入Reviewer），主张通过结构化设计（如分...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/oragnes/status/2034202656919728581" target="_blank" rel="noopener">Maestro开源 自动化测试零门槛</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文主要介绍了一个名为**Maestro**的现代化自动化测试开源项目。其核心特点是**极大降低测试门槛**，支持全平台（iOS/Android/React Native/Flutter/Web），并提供可视化IDE（Maestro Studio）实现免手写代码的测试脚本录制；当前本地使用完全免费，而企业级云端并发测试则采用收费模式。推文由用户“比特币橙子Tra...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/KingJing001/status/2034110094992982045" target="_blank" rel="noopener">逃出硅谷：谢赛宁与杨立昆的反向OpenAI</a>
+                </div>
+                <div class="article-desc">根据OpenGraph数据，这篇文章主要内容是：AI领域两位重要人物谢赛宁和杨立昆离开硅谷，采用一种“反向OpenAI”的模式进行创业——他们手握10亿美元资金，仅组建25人小团队，且尚未推出具体产品，文章基于对他们7小时访谈的精炼，探讨了这种非传统路径背后的理念与策略。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/dotey/status/2034002188994060691" target="_blank" rel="noopener">Claude Code构建经验：Skills应用</a>
+                </div>
+                <div class="article-desc">本文为翻译文章，原作者为Anthropic Claude Code团队工程师Thariq Shihipar，主要分享了在开发Claude Code过程中，团队如何构建、应用和管理“Skills”（技能）系统的经验与见解。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/berryxia/status/2034022941823021231" target="_blank" rel="noopener">Lenny开放全部数据，发起项目挑战</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，这篇推文的主要内容是：Newsletter作者@lennysan将其350多篇文章和300多期播客转录全部整理成AI友好的Markdown文件，并附带MCP server与GitHub仓库免费/付费开放，以此发起挑战，鼓励大家用这些数据创造各类项目（如游戏、工具等），最佳项目将获得一年免费订阅，其此前仅公开播客转录时已催生出50余个创意项目。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/huang_chao4969/status/2033959058945020041" target="_blank" rel="noopener">ClawTeam发布AI代理集群智能平台</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文主要介绍了名为 **ClawTeam** 的新系统，其核心是将原本孤立工作的AI代理（如OpenClaw、nanobot）转变为一个能协同思考与工作的“代理群体”。用户只需向领导代理设定目标，系统便能自动生成专家团队、智能分配任务并全程协调，从而将复杂的多日项目（如机器学习实验、全栈开发）简化为单命令操作，显著提升效率。作者为Chao Huang（@huan...</div>
+            </div>
+        </div>
+
+        <div class="day-section">
+            <div class="day-header">
+                <span class="day-date">03月17日 (二)</span>
+                <span class="day-count">10 篇</span>
+            </div>
+            
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/YuLin807/status/2028760797040505017" target="_blank" rel="noopener">远程Mac高效操作：反重力与Peekaboo方案</a>
+                </div>
+                <div class="article-desc">本文介绍了一种远程控制 Mac 的方案，核心是通过两个 Bash 脚本实现远程操作，其功能包括截屏识图、执行命令、修改代码、管理应用，并集成 Antigravity 工具调用免费 AI（如 Gemini/Opus）审查代码；同时强调在 Mac 生态中必须配合使用 OpenClaw 的 UI 自动化工具 Peekaboo 才能流畅操作，否则可能产生额外费用。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/UnslothAI/status/2033926272481718523" target="_blank" rel="noopener">Unsloth Studio开源发布 实现大模型本地训练运行</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文主要介绍了**Unsloth AI**发布的一款名为**Unsloth Studio**的开源Web UI工具，用于在本地（Mac/Windows/Linux）训练和运行大语言模型（LLM）。其核心功能包括：以更少显存（70% VRAM）实现2倍以上的训练加速（支持500+模型）、支持GGUF/视觉/音频/嵌入等多种模型、自动从PDF/CSV/DOCX创建数...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/Formulasearch/status/2033884676415496346" target="_blank" rel="noopener">NotebookLM：研究笔记PPT神器</a>
+                </div>
+                <div class="article-desc">根据提供的标题与预览信息，这篇文章是一篇关于 **NotebookLM** 的快速入门教程。NotebookLM 是谷歌推出的一款 AI 笔记与研究助手，其核心功能是允许用户上传自己的文档、资料进行深度分析、总结与问答，从而辅助研究、笔记整理乃至 PPT 制作，这与普通的通用聊天 AI 有本质区别。文章旨在指导读者如何快速上手使用这一工具。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/nash_su/status/2033806469796167758" target="_blank" rel="noopener">AI逆向分析悟空App技术架构</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文的主要内容是：作者通过逆向工程的方法，分析了由钉钉团队开发、内部代号为&#34;Real&#34;、对外品牌为&#34;悟空&#34;（Wukong）的AI Agent桌面客户端的技术架构，具体包括对其App Bundle结构、二进制符号、动态库依赖及资源文件的解析。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/nash_su/status/2033806469796167758" target="_blank" rel="noopener">X用户nash_su发推</a>
+                </div>
+                <div class="article-desc">根据提供的页面内容，该链接指向 X（原 Twitter）平台的一条推文（status），但由于浏览器中 JavaScript 被禁用或隐私扩展干扰，页面未能正常加载，仅显示错误提示和网站通用页脚信息，因此无法获知该条推文的具体内容或主题。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/nash_su/status/2033806469796167758" target="_blank" rel="noopener">逆向分析阿里悟空App技术架构</a>
+                </div>
+                <div class="article-desc">这篇文章通过逆向工程方法，详细分析了由钉钉团队开发、内部代号“Real”、对外品牌为“悟空”（Wukong）的AI Agent桌面客户端的技术架构，具体包括其App Bundle结构、二进制符号、动态库依赖及资源文件。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/nash_su/status/2033806469796167758" target="_blank" rel="noopener">AI逆向分析阿里悟空App技术架构</a>
+                </div>
+                <div class="article-desc">这篇推文由用户 nash_su 发布，主要内容是对阿里巴巴旗下钉钉团队开发的 AI Agent 桌面客户端“悟空”（内部代号 Real）进行技术逆向分析，重点解析了其 App Bundle 结构、二进制符号、动态库依赖及资源文件等架构细节。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jolestar/status/2033795809259724838" target="_blank" rel="noopener">实用UXC技能：Chrome DevTools MCP与Playwright MCP</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文主要介绍了作者`jolestar`创建的两个实用的浏览器自动化工具（称为“UXC Skill”），分别是基于 Chrome DevTools 的 `chrome-devtools-mcp-skill` 和基于 Playwright 的 `playwright-mcp-skill`，旨在提升开发或测试的效率。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jolestar/status/2033795809259724838" target="_blank" rel="noopener">UXC推出双浏览器MCP技能</a>
+                </div>
+                <div class="article-desc">根据提供的 OpenGraph 数据，该推文主要介绍了作者将 **Chrome DevTools MCP** 和 **Playwright MCP** 封装成了两个实用的 UXC 浏览器技能（分别为 `chrome-devtools-mcp-skill` 和 `playwright-mcp-skill`），并简要说明了它们的分工。文章核心在于分享这两种基于模型上下文协议（MCP）的浏览器自动化与调...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://x.com/AYi_AInotes/status/2033412304067510736" target="_blank" rel="noopener">Anthropic开放13门免费AI课程</a>
+                </div>
+                <div class="article-desc">根据提供的 Opengraph 数据，该推文主要分享了 Anthropic（Claude 母公司）开放了**13 门免费的 AI 课程及认证**，内容涵盖 Claude 入门、AI 通识、智能体开发、API 实战、模型上下文协议（MCP）等，并针对学生、教育工作者及非营利组织等不同群体提供了专项学习路径，同时还包括与亚马逊云、谷歌云合作的认证课程，旨在为不同需求的用户提供系统化的 AI 学习资源。</div>
+            </div>
+        </div>
+
+        <div class="day-section">
+            <div class="day-header">
+                <span class="day-date">03月16日 (一)</span>
+                <span class="day-count">7 篇</span>
+            </div>
+            
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/riba2534/status/2033281446866223610" target="_blank" rel="noopener">AI时代红利：技术广度决定程序员未来</a>
+                </div>
+                <div class="article-desc">该推文的核心观点是：在AI时代，程序员最大的优势在于拥有跨领域的技术广度，能够将不同领域的知识融会贯通并借助AI放大效果；作者以“全自动逆向混淆WASM签名算法”为例说明这一趋势，并警告仅会编码而缺乏其他技能的程序员将被淘汰。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jaylenngx/status/2033379663264035068" target="_blank" rel="noopener">7元月租纯净住宅IP实测指南</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph信息，该推文是系列指南的第二部分，主要介绍了如何以最低每月7元人民币的成本获取和配置“纯净住宅IP”，并分享了作者通过实际测试找到的一个表现良好的IP地址（163.123.201.18），同时涉及该IP的质量检测方法及其在多个平台上的使用指南。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/shao__meng/status/2033387423364005932" target="_blank" rel="noopener">信息卡让OpenClaw信息筛选更直观</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，这篇推文主要介绍了作者（@shao__meng）所推广的“信息卡”（Info Card）工具或方法。其核心是将 **MiniMax** 与 **OpenClaw** 结合使用，通过信息卡更直观地筛选和展示OpenClaw获取的信息，从而实现选择性深入阅读。作者还分享了用于生成信息卡图片和Remotion视频的完整提示词与教程链接，并感谢了 @hylarucoder...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/aigclink/status/2033377706763808958" target="_blank" rel="noopener">清华开源AI虚拟课堂系统OpenMAIC</a>
+                </div>
+                <div class="article-desc">清华大学最新开源项目OpenMAIC是一个AI多智能体互动课堂系统，能够根据任何主题或文档自动生成完整的互动课程，包括幻灯片讲义、测验、HTML交互式模拟和项目制学习内容；它模拟真实虚拟教室，配备AI老师和AI同学，支持语音讲解、白板绘图写公式、主动发起讨论或点名发言、进行圆桌辩论等功能，并集成了OpenClaw以便在飞书、Slack、Telegram等平台直接生成课堂，旨在将教育从传统慕课视频时...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/shao__meng/status/2033344885319930084" target="_blank" rel="noopener">全自动研究闭环系统发布</a>
+                </div>
+                <div class="article-desc">该推文介绍了一个名为“AutoResearchClaw”的开源项目，它实现了从“一个想法”到“完整会议论文”的全自动、端到端研究闭环。该系统自动化完成了文献综述、假设生成、真实实验执行、结果分析、模拟同行评审、论文撰写及引用验证等全部流程，无需人工干预，并具备硬件自适应、多智能体对抗辩论、自学习与结果监控等核心特性，最终输出符合NeurIPS/ICML等会议格式的完整论文包。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/hasantoxr/status/2033213054859792859" target="_blank" rel="noopener">LangChain开源Deep Agents 仿Claude Code构建</a>
+                </div>
+                <div class="article-desc">LangChain开源了一个名为Deep Agents的MIT许可框架，它重现了Claude Code的核心工作流程，为开发者提供了一个开放系统来构建和修改编码代理。该框架包括任务分解计划工具、文件系统访问、带沙箱的shell命令执行、并行子代理以及上下文过长时的自动摘要功能，并且是模型无关的，可插入不同LLM进行实验，作者推荐此仓库作为理解编码代理结构或探索代理框架的实用参考。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jakevin7/status/2033234460850745481" target="_blank" rel="noopener">OpenCLI v0.4.4 正式发布</a>
+                </div>
+                <div class="article-desc">OpenCLI v0.4.4版本发布，该工具可将任何网站转换为命令行界面，新增11个命令（总数达57个），并进行了三阶段性能优化（包括智能滚动、编译懒加载引擎和批量IPC获取），增强了连接层（如CDP自动发现和反爬绕过），同时支持Twitter等网站的读写操作、YAML输出，并将文档拆分为探索式开发和单次使用模式。</div>
+            </div>
+        </div>
+
+        <div class="day-section">
+            <div class="day-header">
+                <span class="day-date">03月15日 (日)</span>
+                <span class="day-count">20 篇</span>
+            </div>
+            
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/gxjdian/status/2032767664435900662" target="_blank" rel="noopener">夸克网盘GitHub全自动发布工具开源</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文主要介绍了一款名为“夸克网盘+GitHub一条龙全自动发布工具（v1.2.0）”的开源软件，其核心功能是实现网盘内容转存、自动归类、TG通知及站点更新等流程的全自动化，并附有面向新手的详细操作教程。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/onehopeA9/status/2032820424678191137" target="_blank" rel="noopener">OpenClaw月提特斯拉</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文的主要内容是：作者OneHopeA9在AI焦虑与大厂裁员的背景下，选择“ALL IN”一个名为OpenClaw的项目，并在短短一个月内成功赚够了购买特斯拉的费用，文后附有从起步到成功的完整复盘过程。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/turingou/status/2033178790961246229" target="_blank" rel="noopener">郭宇上线vibe编程直播平台vibelab</a>
+                </div>
+                <div class="article-desc">该推文宣布作者郭宇上线了第11个产品“vibelab”，这是一个专为vibe coder设计的云端沙箱直播平台，主播可在云端环境编程并与观众共享终端，基于其开源的sandbank cloud构建，支持claude code等编码工具、快照保存状态及GitHub自动化，作者计划每日在此直播并邀请博主内测。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/GitHub_Daily/status/2033121066168848446" target="_blank" rel="noopener">NotebookLM提示词开源合集 收录15种风格PPT生成方案</a>
+                </div>
+                <div class="article-desc">这篇推文由GitHubDaily分享，介绍了GitHub上一个名为“Awesome NotebookLM Prompts”的开源资源合集，该合集整理了超过15种不同风格的PPT生成提示词，包括商务风、街头潮流、极简主义、复古未来、运动能量等视觉风格，每种都配有详细的设计规范和实际案例，涵盖色彩搭配、排版规则、字体层级、图标风格、布局变体等设计定义信息，并提供了针对学术报告、产品发布会等不同场景的使...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jolestar/status/2033126720157704327" target="_blank" rel="noopener">AI画架构图：WebMCP与webmcp-bridge</a>
+                </div>
+                <div class="article-desc">根据提供的标题和预览信息，这篇文章主要讲述了作者在探索使用AI辅助绘制架构图的过程中，介绍了**WebMCP**及其相关工具**webmcp-bridge**，旨在分享如何借助这些工具实现AI与架构图设计的结合。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jakevin7/status/2033127300649148850" target="_blank" rel="noopener">OpenCLI v0.4.0发布：AI主动探测破解B站字幕API</a>
+                </div>
+                <div class="article-desc">OpenCLI v0.4.0 发布，这是一个将网站转换为命令行工具的开源项目，本次更新重点解决了 AI 自动发现 API 时的被动嗅探失败问题，通过引入交互式探测（模拟点击触发懒加载）、空值断言惩罚假成功响应、级联请求模板等改进，成功实现了如 B 站视频字幕的一行命令快速获取，同时优化了性能（如 MutationObserver 监听 DOM、劫持 fetch/XHR），使工具更智能高效。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/AYi_AInotes/status/2032809666174963924" target="_blank" rel="noopener">AI技能自我迭代，维护时间省80%</a>
+                </div>
+                <div class="article-desc">这篇文章的核心观点是：传统的AI技能开发模式（如写死`SKILL.md`并手动迭代）已难以适应快速变化的环境（模型更新、API变更等），容易导致技能无声失效；而新兴的“活的技能系统”范式（如cognee-skills的思路）主张让AI技能具备自我观察失败并自动迭代进化的能力，从而大幅降低维护成本，这标志着AI技能底层逻辑的重要变革。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jijiamoer113397/status/2033112298580238535" target="_blank" rel="noopener">破解AI对话导出限制 提取工具发布</a>
+                </div>
+                <div class="article-desc">作者摩尔在使用Windsurf和Antigravity写代码时，因官方导出功能无法查看thinking内容和时间戳，逆向存储格式开发了两个提取工具，可将数据导入@NowledgeMem进行知识管理，并邀请用户star支持。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/op7418/status/2033113845120807170" target="_blank" rel="noopener">复刻Claude生成式UI交互</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph信息，该推文的主要内容是：开发者“歸藏(guizang.ai)”复现了Anthropic在Claude中最新推出的“生成式UI交互”功能，该功能可在对话流中嵌入可视化交互界面来展示概念与信息，相比纯文本更易理解。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jakevin7/status/2033097082077143419" target="_blank" rel="noopener">OpenCLI v0.3发布，新增十余站点支持</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文主要介绍了开源工具 **OpenCLI** 从 v0.1 到 v0.3 的重大版本更新，核心改进包括：彻底打通硬核网站底层提取（支持 TS Register 和复杂清洗）、实现 Network Interception 以获取纯净 API 数据、增强浏览器交互桥接（支持指纹浏览器）、重构 Tab 资源管理防止内存泄漏，并一口气扩展支持了包括 Twitter、...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/shao__meng/status/2032973780533105061" target="_blank" rel="noopener">LandingAI发布视觉优先文档提取指南</a>
+                </div>
+                <div class="article-desc">根据提供的推文内容，LandingAI 发布了一份关于其 **Agentic Document Extraction (ADE)** 方案的完整指南。该方案的核心是采用 **“Vision-First”（视觉优先）** 的技术架构，即以文档的视觉布局和空间关系作为首要信息源，而非依赖单纯的OCR文本或黑箱式大模型，旨在将高度多样化的非结构化文档（如财务报表、医疗记录、合同、保险表单）转化为可直接消...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/yangyi/status/2032772763048620215" target="_blank" rel="noopener">动手做skill 分享即朋友</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文的核心内容是：**作者Yangyi鼓励开发者动手制作并分享自己开发的技能（skill）或命令行工具（cli），并以此作为建立社区联系的契机，呼吁大家将作品发布在评论区以互相交流。**</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/eyupyusufa/status/2032549315906850873" target="_blank" rel="noopener">开发者逆向Outlook发布无API命令行工具</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文主要介绍了开发者Yusuf Altunbıçak（@eyupyusufa）发布的一个开源项目：他通过逆向工程Outlook的内部API，构建了一个功能强大的命令行界面（CLI）工具。该工具无需官方API密钥或管理员授权，提供超过50个命令，可全面管理邮件、日历、分类、定时发送和签名等，其功能与体验据称优于微软官方的MCP（Microsoft Cloud Pr...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/IterIntellectus/status/2032858964858228817" target="_blank" rel="noopener">无生物学背景男子凭AI治愈犬癌，挑战传统制药</a>
+                </div>
+                <div class="article-desc">一位澳大利亚技术爱好者领养了一只癌症晚期的救援狗，花费3000美元测序其肿瘤DNA，利用ChatGPT和AlphaFold分析并设计了个性化mRNA癌症疫苗，在克服伦理审批后治疗成功使肿瘤减半、狗恢复健康，教授对此惊叹并质疑为何不推广至人类，这突显了AI与生物技术结合在疾病治疗中的革命性潜力。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/liyue_ai/status/2032838652519481455" target="_blank" rel="noopener">OpenClaw多Agent组建飞书员工军团</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph信息，该推文的主要内容是：作者李岳（@liyue_ai）分享了一篇关于 **OpenClaw 多智能体（Agent）实践教程**，核心探讨了在使用 OpenClaw 组建类似“飞书员工军团”的多Agent系统时，遇到的**记忆管理难题**——即当同一个Agent对话过多时，即使安装了Mem0等记忆插件，仍因记忆内容过多过长而导致混乱，并可能介绍了相应的解决方案或实操经验...</div>
+            </div>
+        </div>
+
+        <div class="day-section">
+            <div class="day-header">
+                <span class="day-date">03月14日 (六)</span>
+                <span class="day-count">17 篇</span>
+            </div>
+            
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/supezen/status/2032824859227771011" target="_blank" rel="noopener">Dokobot上线 安全高效读取网页</a>
+                </div>
+                <div class="article-desc">Dokobot是一款新产品，通过结合Chrome CDP和Treewalker技术，为AI agent提供安全高效的网页内容读取方案，解决了现有方法在反爬、登录页访问和安全隐患等方面的缺陷，能读取用户已登录的网页（如Gmail、Notion）并输出AI友好的Markdown格式，显著节省token消耗；产品目前已稳定开放注册，提供免费套餐和使用彩蛋。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/ai_muzi/status/2032032878855348702" target="_blank" rel="noopener">开源OpenClaw控制中心</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文的主要内容是：开发者“木子不写代码”开源了一个自用的**OpenClaw控制中心**，这是一个统一的面板工具，用于监控和管理OpenClaw系统。其核心功能包括：查看各任务消耗的token比例、监控系统整体健康状态、实时查看每个Agent的运行状态（是否卡住）、查看Agent使用的模型、目录和权限，以及直接查看和修改Agent的记忆、人设和任务文档，同时还能...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/NeelNanda5/status/2032749947733557691" target="_blank" rel="noopener">LLM无上下文推理：关键科学突破</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，这条推文的核心内容是：Neel Nanda 强调了“离上下文推理”是理解大语言模型工作原理中最引人入胜的进展之一，并推荐了一篇由该现象的主要发现者之一 Owain Evans 撰写的优秀入门文章。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jakevin7/status/2032330774196981833" target="_blank" rel="noopener">xiaohongshu-cli工具升级，新增多项交互功能</a>
+                </div>
+                <div class="article-desc">这篇推文主要介绍了作者对小红书命令行工具 `xiaohongshu-cli` 进行的一次重要迭代更新：简化了架构回归纯 CLI 但保留了关键状态能力，补充了覆盖真实连续场景的冒烟测试，并新增了点赞、收藏、评论等短索引交互功能，同时吸收了社区建议重构了代码以避免功能回退，当前最新版本为 v0.6.3。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jakevin7/status/2032815300052189583" target="_blank" rel="noopener">卡比卡比发布微博命令行工具</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文主要介绍了作者`@jakevin7`开发的一款名为“weibo CLI”的命令行工具，它允许用户在终端中浏览微博热搜、热门时间线、用户主页及评论。此工具是其个人“社交平台CLI全家桶”项目的一部分（已涵盖Twitter、B站、小红书等平台），未来计划扩展至新闻源，旨在方便其个人进行投资开发与研究。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/ryancarson/status/2031755002205655511" target="_blank" rel="noopener">五代理并发 Code Factory 实现全自动编码交付</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，Ryan Carson在推文中分享了他如何搭建一个名为“Code Factory”的系统，该系统能同时运行5个智能体（agents），实现代码的自动编写与部署（“write/ship 100% of our code”）。他使用了开源的Symphony框架、Codex Mac应用以及Linear工具，仅用2-3天便完成设置，目前系统已高效运转。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jakevin7/status/2032779857952645477" target="_blank" rel="noopener">AI遗忘中间信息</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph信息，该推文的核心内容是探讨大语言模型在处理长文本时存在的“位置偏见”现象：当关键信息位于文本开头或结尾时，模型通常能正确回答相关问题；但若关键信息被置于文本中间，模型则更容易因“遗忘”而给出错误答案。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/Xuegaogx/status/2032666333989712136" target="_blank" rel="noopener">从ChatGPT到Claude Cowork设置指南</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph信息，这篇由原文作者@rubenhassid撰写、@Xuegaogx翻译注释的文章，标题为《如何设置 Claude Cowork（从 ChatGPT 进阶的完整指南）》，主要内容是指导用户如何在从ChatGPT切换到Claude后，全面掌握并使用Claude的Cowork功能，并提及该功能发布时曾引发软件股市场剧烈波动的背景。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/himself65/status/2032694192196169967" target="_blank" rel="noopener">优质网站解析Claude动态图表</a>
+                </div>
+                <div class="article-desc">根据提供的推文内容，该推文主要提及用户研究了Claude应用动态图表的实现方式，并发现了一个编写得很好的相关技术网站。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/GitHub_Daily/status/2032758692765147575" target="_blank" rel="noopener">AI技能管理工具SkillDeck开源</a>
+                </div>
+                <div class="article-desc">SkillDeck是一个开源的可视化技能管理桌面客户端，解决了在多个AI编程助手（如Claude Code、Codex、Gemini CLI、Cursor等10款工具）间切换时手动编辑配置文件和链接的麻烦。它允许用户统一管理技能，通过一键操作完成安装、更新和分配，并内置技能市场浏览器、分屏式SKILL.md编辑器（左侧表单右侧实时预览）以及文件系统监控自动同步功能。该应用支持macOS 14及以上...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/HiTw93/status/2032091246588518683" target="_blank" rel="noopener">Claude Code架构治理实践</a>
+                </div>
+                <div class="article-desc">根据提供的 OpenGraph 数据，这篇文章是作者 Tw93 基于半年深度使用 Claude Code（并付费）的经验分享，主要探讨了其**架构设计、治理方式以及实际的工程实践**，旨在揭示一些不为人知的细节，并总结踩坑经验与使用心得。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/BruceBlue/status/2032703807189299694" target="_blank" rel="noopener">Ghostty成Claude Code最佳搭档</a>
+                </div>
+                <div class="article-desc">这篇文章介绍了Ghostty，称其为Claude Code的最佳搭档，主要针对开发者在终端运行缓慢和Claude生成代码时输出混乱的痛点，提供解决方案以提升编码效率和体验。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jakevin7/status/2032751167302746369" target="_blank" rel="noopener">Reddit命令行工具发布</a>
+                </div>
+                <div class="article-desc">这篇推文由作者卡比卡比（@jakevin7）发布，主要介绍了他开发的Reddit命令行界面（CLI）工具，该工具允许用户在终端中直接操作Reddit，包括查看feed、浏览subreddit、搜索帖子、阅读评论树、导出结果以及进行upvote、save、subscribe等基础交互；作者还强调了工具的细节优势，如短索引操作（例如`rdt show 3`）、自动从浏览器提取cookies登录、支持J...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jakevin7/status/2032713222730461574" target="_blank" rel="noopener">Okmain：Oklab与K-means提取图片美观主色调</a>
+                </div>
+                <div class="article-desc">这篇文章介绍了 Okmain，一个使用 Oklab 色彩空间和 K-means 聚类从图片中提取美观主色调的 Rust 库，它通过避免在错误色彩空间做数学运算并结合聚类与智能排序，在100毫秒内解决了传统缩放方法导致的颜色暗淡问题。同时，作者分享了使用 Claude Opus 进行 AI coding 的开发心得：LLM 在编写调试工具等机械性任务上高效，但在需要精确控制（如 auto-vecto...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/openclaw/status/2032693636119302396" target="_blank" rel="noopener">OpenClaw 2026.3.13版本发布 新增Chrome会话附加与Android重设计</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph数据，该推文（发布于2026年3月13日）主要宣布了OpenClaw项目的多项更新，包括：支持实时Chrome会话附加（无需扩展）、Android应用重新设计并缩减至7MB、iOS新增欢迎页面、Docker时区覆盖功能，以及对Windows网关的调整，并附带了相关链接。推文获得了约1.2万次点赞及近10万次浏览。</div>
+            </div>
+        </div>
+        </main>
+        
+        <footer>
+            <p>数据来源：<a href="https://tech.armyja-online.uk/rss" target="_blank">AI快报</a></p>
+            <p style="margin-top:8px;">由 OpenClaw 自动更新 · 每日 9:00</p>
+        </footer>
+    </div>
+</body>
+</html>
