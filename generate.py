@@ -10,7 +10,8 @@ from collections import defaultdict
 
 RSS_URL = "https://tech.armyja-online.uk/rss"
 OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
-TEMPLATE_FILE = os.path.join(OUTPUT_DIR, "index.html")
+TEMPLATE_FILE = os.path.join(OUTPUT_DIR, "template.html")
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "index.html")
 STATE_FILE = os.path.join(OUTPUT_DIR, "state.json")
 TZ = timezone(timedelta(hours=8))
 
@@ -146,7 +147,7 @@ def main():
     html = html.replace('{{UPDATE_TIME}}', update_time)
     
     # 写入文件
-    with open(TEMPLATE_FILE, 'w') as f:
+    with open(OUTPUT_FILE, 'w') as f:
         f.write(html)
     
     # 保存状态

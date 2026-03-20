@@ -73,21 +73,6 @@
             font-size: 0.9rem;
             line-height: 1.6;
         }
-        .article-meta {
-            margin-top: 8px;
-            font-size: 0.8rem;
-            color: #666;
-        }
-        
-        .tag {
-            display: inline-block;
-            background: rgba(123,44,191,0.3);
-            color: #c77dff;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            margin-right: 6px;
-        }
         
         footer {
             text-align: center;
@@ -121,15 +106,35 @@
             <a href="https://tech.armyja-online.uk/rss" class="rss-badge" target="_blank">
                 <span>📡</span> RSS 源
             </a>
-            <p class="last-update">最后更新：2026-03-19 10:19</p>
+            <p class="last-update">最后更新：2026-03-20 10:23</p>
         </header>
         
         <main id="content">
             
         <div class="day-section">
             <div class="day-header">
+                <span class="day-date">03月20日 (五)</span>
+                <span class="day-count">2 篇</span>
+            </div>
+            
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/QingQ77/status/2034580389742944576" target="_blank" rel="noopener">Firecracker快照与CoW fork打造亚毫秒级AI沙箱，兼顾安全低延迟</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph信息，该推文介绍了一种名为“zeroboot”的技术方案：它通过将Firecracker虚拟机快照作为基础镜像，并利用写时复制（CoW）fork机制快速创建新的KVM虚拟机，旨在为AI代理（agent）提供一个兼具亚毫秒级启动速度和强安全性的代码执行沙箱环境。作者认为该方案在通常难以兼得的“低延迟”与“安全性”之间取得了有效平衡。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jerryjliu0/status/2034665976428724267" target="_blank" rel="noopener">开源LiteParse：快速准确AI文档解析工具</a>
+                </div>
+                <div class="article-desc">这篇推文由Jerry Liu发布，主要介绍了名为**LiteParse**的开源文档解析工具。该工具无需GPU、速度快（可在普通硬件上2秒处理约500页），支持50多种文件格式（如PDF、Office文档、图片），在准确性和可读性（尤其是表格解析为空间网格）上优于PyPDF等传统解析器，并设计为可轻松集成到Claude Code等AI代理中。作者强调它并非基于视觉语言模型的OCR替代品，但对于大多...</div>
+            </div>
+        </div>
+
+        <div class="day-section">
+            <div class="day-header">
                 <span class="day-date">03月19日 (四)</span>
-                <span class="day-count">4 篇</span>
+                <span class="day-count">10 篇</span>
             </div>
             
             <div class="article">
@@ -155,6 +160,42 @@
                     <a href="https://twitter.com/dontbesilent/status/2034180260049363291" target="_blank" rel="noopener">顶级的 Skill 长什么样</a>
                 </div>
                 <div class="article-desc">这篇文章（推文）主要描述了作者使用了YC CEO开发的一个名为「plan-ceo-review」的skill，通过让Claude Code扫描本地文件夹自动理解其商业模式，并直接执行该skill而无需添加任何提示词，以此展示顶级skill的高效、自动化能力和便捷性。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jakevin7/status/2034640077557534857" target="_blank" rel="noopener">opencli 1.0正式启航</a>
+                </div>
+                <div class="article-desc">本文总结了 `opencli` 从 v0.8 到 v1.0 的重大更新，核心是架构革命——彻底移除 Playwright 依赖，改用自研的轻量级 Daemon + Chrome Extension 方案，实现了零步骤安装与多项高级功能。同时，平台支持大幅扩展，新增了包括小宇宙、Apple Podcasts、微信读书、ChatGPT Desktop、Notion、Discord 等在内的 20 余个...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/turingou/status/2034547388665528473" target="_blank" rel="noopener">郭宇发布开源邮件服务mails 专为AI代理</a>
+                </div>
+                <div class="article-desc">郭宇（@turingou）发布了其第12个vibe产品“mails”，这是一个专为agents设计的开源邮件服务，CLI工具仅20kb，支持agents收发邮件、附件、搜索内容及快速识别验证码。它提供自部署方案（基于Cloudflare Email Routing Worker接收邮件、Resend发送，支持SQLite等存储）和云服务版本（免费邮箱每月100封，超出按x402协议支付），GitH...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/BruceBlue/status/2034347438971158924" target="_blank" rel="noopener">MiniMax M2.7升级引发搜索故障</a>
+                </div>
+                <div class="article-desc">根据提供的标题与预览内容，这篇文章主要讲述了用户在使用 MiniMax AI 模型时，从 M2.5 升级到 M2.7 后遇到的联网搜索功能问题（如直接回复无实时数据或长时间报错），并提供了相应的升级避坑指南与解决建议。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/elliotchen100/status/2034479369855590660" target="_blank" rel="noopener">MSA赋予大模型原生亿级记忆，精度衰减不足9%</a>
+                </div>
+                <div class="article-desc">这篇推文介绍了名为 **MSA（Memory Sparse Attention）** 的新技术，它是一种让大语言模型**原生拥有超长记忆**的稀疏注意力架构。与依赖外部检索（RAG）或暴力扩展窗口的旧方案不同，MSA 通过**线性复杂度**、**文档级位置编码（document-wise RoPE）** 和**记忆交织（Memory Interleaving）** 机制，使模型能高效地“挑重点看”...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/GitHub_Daily/status/2034480118354313478" target="_blank" rel="noopener">Claude HUD插件实时显示开发关键信息</a>
+                </div>
+                <div class="article-desc">该推文介绍了一个名为 **Claude HUD** 的开源插件，旨在解决使用 **Claude Code** 进行开发时难以实时监控上下文使用量、工具调用状态和 Agent 运行进度，从而导致 token 浪费的问题。该插件直接在输入框下方显示关键信息（如项目路径、上下文使用率、工具活动、任务进度等），支持多种布局与自定义主题，帮助开发者随时掌握开发状态、提高效率。</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/blackanger/status/2034310549778153861" target="_blank" rel="noopener">Rust版Claude Agent SDK发布V0.7，功能对齐官方Python SDK</a>
+                </div>
+                <div class="article-desc">这篇推文主要宣布了用Rust实现的Claude Agent SDK发布V0.7版本，其功能已与最新官方Claude Agent Python SDK版本对齐，并且在之前的V0.6版本中还特别支持了Claude Code隐藏的WebSocket链接。</div>
             </div>
         </div>
 
