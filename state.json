@@ -437,7 +437,13 @@
       "link": "https://twitter.com/blackanger/status/2034310549778153861",
       "description": "这篇推文主要宣布了用Rust实现的Claude Agent SDK发布V0.7版本，其功能已与最新官方Claude Agent Python SDK版本对齐，并且在之前的V0.6版本中还特别支持了Claude Code隐藏的WebSocket链接。",
       "date": "2026-03-19"
+    },
+    {
+      "title": "Agent原理、架构与工程实践",
+      "link": "https://twitter.com/HiTw93/status/2034627967926825175",
+      "description": "根据提供的OpenGraph数据，该文章标题为《你不知道的 Agent：原理、架构与工程实践》，其核心内容是对智能体（Agent）技术的深度解析。作者在完成关于Claude Code的架构分析后，进一步深入探索Agent的底层原理与实际工程实践，并结合团队经验，系统性地阐述了Agent的技术架构与实现方法。文章旨在帮助读者超越表面应用，理解Agent的内在机制与构建要点。",
+      "date": "2026-03-20"
     }
   ],
-  "last_update": "2026-03-20 10:23"
+  "last_update": "2026-03-20 15:17"
 }

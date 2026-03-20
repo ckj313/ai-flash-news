@@ -3,10 +3,12 @@
 
 import json
 import os
+import re
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from collections import defaultdict
+import html
 
 RSS_URL = "https://tech.armyja-online.uk/rss"
 OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -14,6 +16,26 @@ TEMPLATE_FILE = os.path.join(OUTPUT_DIR, "template.html")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "index.html")
 STATE_FILE = os.path.join(OUTPUT_DIR, "state.json")
 TZ = timezone(timedelta(hours=8))
+
+
+def markdown_to_html(text):
+    """简单的 Markdown 转 HTML"""
+    # 转义 HTML 特殊字符（但保留我们要处理的 Markdown）
+    text = html.escape(text)
+    
+    # **bold** -> <strong>bold</strong>
+    text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+    
+    # *italic* -> <em>italic</em>
+    text = re.sub(r'\*(.+?)\*', r'<em>\1</em>', text)
+    
+    # `code` -> <code>code</code>
+    text = re.sub(r'`(.+?)`', r'<code>\1</code>', text)
+    
+    # [link](url) -> <a href="url">link</a>
+    text = re.sub(r'\[([^\]]+)\]\(([^\)]+)\)', r'<a href="\2">\1</a>', text)
+    
+    return text
 
 
 def fetch_rss(url):
@@ -81,12 +103,14 @@ def generate_html(articles_by_date):
         articles_html = []
         for article in articles[:15]:  # 每天最多15篇
             desc = article['description'][:200] + '...' if len(article['description']) > 200 else article['description']
+            title_html = markdown_to_html(article['title'])
+            desc_html = markdown_to_html(desc)
             articles_html.append(f'''
             <div class="article">
                 <div class="article-title">
-                    <a href="{article['link']}" target="_blank" rel="noopener">{article['title']}</a>
+                    <a href="{article['link']}" target="_blank" rel="noopener">{title_html}</a>
                 </div>
-                <div class="article-desc">{desc}</div>
+                <div class="article-desc">{desc_html}</div>
             </div>''')
         
         content_parts.append(f'''
