@@ -443,7 +443,49 @@
       "link": "https://twitter.com/HiTw93/status/2034627967926825175",
       "description": "根据提供的OpenGraph数据，该文章标题为《你不知道的 Agent：原理、架构与工程实践》，其核心内容是对智能体（Agent）技术的深度解析。作者在完成关于Claude Code的架构分析后，进一步深入探索Agent的底层原理与实际工程实践，并结合团队经验，系统性地阐述了Agent的技术架构与实现方法。文章旨在帮助读者超越表面应用，理解Agent的内在机制与构建要点。",
       "date": "2026-03-20"
+    },
+    {
+      "title": "Karpathy：写代码非正确动词",
+      "link": "https://twitter.com/dotey/status/2035141635713941927",
+      "description": "根据提供的OpenGraph数据，这篇推文的核心内容是：OpenAI联合创始人、前特斯拉AI总监安德烈·卡帕西（Andrej Karpathy）表示，自2024年12月起他基本不再手写代码，并认为“写代码”已不再是描述当前开发方式的准确动词，这反映了他作为独立AI研究者对AI工具深度融入编程流程的实践与观点。",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "SkillCraft赋能AI自主造工具",
+      "link": "https://twitter.com/shiqi_chen17/status/2035024651093778648",
+      "description": "这篇推文分享了SkillCraft的研究背景与核心思想：作者团队此前在用大模型进行具身RL（如推箱子）时，发现瓶颈在于模型无法自主从环境字符串中提取坐标（grounding问题），而依赖人工先验提供坐标虽有效但非根本解。他们由此提出“工具的本质是压缩”，并设计了Toolathlon基准与`save_skill`、`get_skill`、`list_skills`、`execute_skill`四个极简协议，旨在让模型能自主发现需求、创造并复用工具（技能），从而激发其“造工具的智能”。",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "SkillCraft让大模型自主造工具",
+      "link": "https://twitter.com/shiqi_chen17/status/2035024651093778648",
+      "description": "这篇文章由Shiqi Chen分享，主要讲述了其团队在开发SkillCraft项目过程中的核心思路：他们早期在具身LLM代理的强化学习实验中，发现模型因无法从原始环境字符串中自主提取坐标信息（即grounding问题）而难以学习，曾不得不手动修改渲染以提供坐标。受此启发，他们希望模型能**自主发现自身认知瓶颈并“创造工具”来压缩重复性认知开销**。为此，他们设计了四个极简协议（save_skill、get_skill、list_skills、execute_skill），使模型能够自主发现、存储和复用自己构造出的工具，并基于Toolathlon基准构建任务进行系统评测，最终形成了SkillCraft这一研究框架。",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "智能路由动态基准测试 Minimax m2.7夺冠",
+      "link": "https://twitter.com/0xViviennn/status/2034912539394613630",
+      "description": "作者0xVivien与anjie老师合作开发了一个智能路由工具，该工具通过为每个请求计算难度分数并让多个模型在统一基准下竞争，综合考虑响应时间、吞吐量等指标，实现节省85%以上成本且保持95%左右的路由准确度；实验显示Minimax m2.7模型在各类难度下均表现优异，工具完全开源免费，支持一键安装、本地神经网络路由及动态优化，并提供可视化dashboard，邀请用户试用反馈。",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "基于提供的Opengraph数据，该推文的核心信息是YC CEO开源了一套工具，能将Claude Code转变为具有角色分工和流程管控的开发团队。因此，生成的简短中文标题如下：\n\nYC CEO开源新工具 Claude Code变身协作开发团队",
+      "link": "https://twitter.com/Gorden_Sun/status/2034937498020061486",
+      "description": "根据提供的OpenGraph数据，该推文主要介绍了YC CEO开源的一套工具集，该工具集能将Claude Code转变为具有角色分工和流程管控的开发团队，通过15个“/命令”将开发流程拆分为思考、计划、构建、评审、测试、发布和反思7个阶段，从而从产品需求、UI设计、测试等多方面提升软件开发质量。",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "MiroThinker-H1发布 达Deep Research SOTA",
+      "link": "https://twitter.com/karminski3/status/2034874634668319054",
+      "description": "陈天桥团队的 MiroThinker 发布了新版 H1 模型及开源 1.7 版本，其 Deep Research 框架通过长视野推理与深度多步分析显著提升了研究能力，并在 BrowseComp 测试中达到 88.2 的 SOTA 分数；博主为此在 OpenClaw 平台封装了可直接使用的 “Miromind” SKILL，方便用户快速体验。",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "X Fetch v1.9.0新增Obsidian导出功能",
+      "link": "https://twitter.com/YuLin807/status/2034878728908808247",
+      "description": "本文介绍了开源工具“X Fetch”的v1.9.0重大更新，核心新增了将X平台长文和arXiv论文完整导出为本地Obsidian Markdown文件的功能（含图片下载），并已通过多篇知名论文的测试。该功能由社区贡献者@andrew0116 驱动实现，工具本身零依赖、仅用Python标准库。作者在推文中还回顾了从Minimax模型切换到Claude系列，并讨论了对Gemini模型的看法。",
+      "date": "2026-03-20"
     }
   ],
-  "last_update": "2026-03-20 15:17"
+  "last_update": "2026-03-21 09:01"
 }
