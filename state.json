@@ -485,7 +485,19 @@
       "link": "https://twitter.com/YuLin807/status/2034878728908808247",
       "description": "本文介绍了开源工具“X Fetch”的v1.9.0重大更新，核心新增了将X平台长文和arXiv论文完整导出为本地Obsidian Markdown文件的功能（含图片下载），并已通过多篇知名论文的测试。该功能由社区贡献者@andrew0116 驱动实现，工具本身零依赖、仅用Python标准库。作者在推文中还回顾了从Minimax模型切换到Claude系列，并讨论了对Gemini模型的看法。",
       "date": "2026-03-20"
+    },
+    {
+      "title": "HopChain多跳数据合成实现视觉推理泛化跃升",
+      "link": "https://twitter.com/ShenzhiWang_THU/status/2035200123329028229",
+      "description": "本文介绍了为提升视觉语言模型（VLM）在长链推理（long-CoT）中的泛化能力而提出的 **HopChain** 框架。该框架通过合成结合“感知级跳”与“实例链跳”的多跳问答数据，强制模型在推理过程中持续回到图像进行视觉锚定，以系统性地训练其长链视觉推理的核心基础能力。在 Qwen3.5 模型的 RLVR 训练中加入 HopChain 数据后，在 24 个跨领域基准测试中实现了广泛提升（20/24 个基准性能提高），尤其在长链和超长链视觉推理任务上增益显著（最高提升超过 50 个准确率点），证明超越特定 benchmarks 设计的外部分布（OOD）代理任务能作为可扩展且泛化性强的 RLVR 监督源。",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "清华学子X平台发文",
+      "link": "https://twitter.com/ShenzhiWang_THU/status/2035200123329028229",
+      "description": "由于提供的HTML内容仅为Twitter（X）的JavaScript禁用提示页面，未包含推文本身的具体文字、图片或视频信息，因此无法总结该推文（URL指向用户`ShenzhiWang_THU`于`2023年7月`发布的状态）的实际主要内容。建议在启用JavaScript的环境下直接访问该链接以获取完整内容。",
+      "date": "2026-03-21"
     }
   ],
-  "last_update": "2026-03-21 09:01"
+  "last_update": "2026-03-22 09:00"
 }
