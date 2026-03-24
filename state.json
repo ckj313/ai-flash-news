@@ -503,7 +503,19 @@
       "link": "https://twitter.com/PandaTalk8/status/2035228582461809141",
       "description": "根据提供的OpenGraph信息，这篇文章主要介绍了由Y Combinator（YC）现任CEO开源的一套AI技能工作流程框架，该框架覆盖了CEO、设计师、程序员等多角色的工作方法，作者Mr Panda在研究和实践后分享了他的使用体验与推荐。",
       "date": "2026-03-22"
+    },
+    {
+      "title": "信息卡制作完整方法开源",
+      "link": "https://twitter.com/shao__meng/status/2035720327037108673",
+      "description": "作者meng shao在推文中介绍了一个开源项目「infocard-skills」，这是一个用于生成多比例信息卡（支持16/9、4/3、1/1等常见比例）和封面设计的AI Skill，用户只需输入内容和比例要求（默认4/3），AI Agent即可自动生成HTML并截图输出PNG格式，同时提供了样例供用户调整样式风格并鼓励沉淀更新到Skill中。",
+      "date": "2026-03-23"
+    },
+    {
+      "title": "AI游戏工作室模板开源 赋能独立开发者",
+      "link": "https://twitter.com/AYi_AInotes/status/2035671729872527711",
+      "description": "这条推文介绍了一个名为“Claude Code Game Studios”的开源GitHub项目，该项目通过48个AI智能体完整复刻了游戏工作室的组织架构与全流程开发体系（涵盖创意、技术、制作、测试等岗位），并提供自动化校验、文档模板及引擎适配方案，使开发者仅需负责核心决策，即可低成本调用专业团队完成游戏开发，项目遵循MIT协议可商用。",
+      "date": "2026-03-23"
     }
   ],
-  "last_update": "2026-03-23 09:01"
+  "last_update": "2026-03-24 09:00"
 }
