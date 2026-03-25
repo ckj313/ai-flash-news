@@ -515,7 +515,19 @@
       "link": "https://twitter.com/AYi_AInotes/status/2035671729872527711",
       "description": "这条推文介绍了一个名为“Claude Code Game Studios”的开源GitHub项目，该项目通过48个AI智能体完整复刻了游戏工作室的组织架构与全流程开发体系（涵盖创意、技术、制作、测试等岗位），并提供自动化校验、文档模板及引擎适配方案，使开发者仅需负责核心决策，即可低成本调用专业团队完成游戏开发，项目遵循MIT协议可商用。",
       "date": "2026-03-23"
+    },
+    {
+      "title": "Cloudflare发布Dynamic Workers AI代码执行快百倍",
+      "link": "https://twitter.com/Cloudflare/status/2036429081214886183",
+      "description": "根据OpenGraph数据，Cloudflare发布了一项名为Dynamic Workers的新技术，它允许在安全、轻量的隔离环境中执行AI生成的代码，其速度比传统容器快100倍。",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "内存稀疏注意力架构五核心详解",
+      "link": "https://twitter.com/elliotchen100/status/2036242208559644804",
+      "description": "根据提供的推文内容，这篇关于“Memory Sparse Attention”论文的技术文章，通过视频形式详细拆解了其核心架构，包括：将亿级Token的KV Cache压缩至可运行规模；采用GPU存放路由键、CPU存放内容的分层存储设计；实现从亿级Token中毫秒级检索相关文档的稀疏路由；将检索与生成合并为单一可微流程；以及通过Document-wise RoPE技术解决训练与推理序列长度不匹配的问题。该文被认为是目前对该技术最完整的硬核解析。",
+      "date": "2026-03-24"
     }
   ],
-  "last_update": "2026-03-24 09:00"
+  "last_update": "2026-03-25 09:00"
 }
