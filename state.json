@@ -599,7 +599,13 @@
       "link": "https://twitter.com/Will_Yang_/status/2037424146788045214",
       "description": "根据提供的OpenGraph数据，这篇文章的主要内容是：**开发者Will Yang宣布其团队开源了名为OpenCow的“AI First”任务驱动智能体平台，该平台支持一任务一智能体、内置AI浏览器辅助运营、并集成了Claude Code等工具，旨在帮助产研、营销等各类团队以AI优先的方式高效工作，同时提供了GitHub和官网链接。**",
       "date": "2026-03-27"
+    },
+    {
+      "title": "本地个人搜索引擎Spool开源",
+      "link": "https://twitter.com/ewind_dev/status/2037712463723135089",
+      "description": "根据提供的OpenGraph数据（因网页内容为SPA加载失败，未获取到正文），该推文主要介绍了开发者Yifeng Wang基于OpenCLI项目实现的一个本地个人搜索引擎“Spool”。它允许用户使用本地的Claude/Codex等模型，统一搜索在Twitter、GitHub等平台上收藏的内容及历史聊天记录，实现个人信息的聚合检索。该项目已开源。",
+      "date": "2026-03-28"
     }
   ],
-  "last_update": "2026-03-28 09:00"
+  "last_update": "2026-03-29 09:00"
 }
