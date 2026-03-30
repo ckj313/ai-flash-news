@@ -605,7 +605,37 @@
       "link": "https://twitter.com/ewind_dev/status/2037712463723135089",
       "description": "根据提供的OpenGraph数据（因网页内容为SPA加载失败，未获取到正文），该推文主要介绍了开发者Yifeng Wang基于OpenCLI项目实现的一个本地个人搜索引擎“Spool”。它允许用户使用本地的Claude/Codex等模型，统一搜索在Twitter、GitHub等平台上收藏的内容及历史聊天记录，实现个人信息的聚合检索。该项目已开源。",
       "date": "2026-03-28"
+    },
+    {
+      "title": "发布OpenCode记忆技能 实现透明会话查询",
+      "link": "https://twitter.com/carson3068/status/2037983385365188621",
+      "description": "根据提供的OpenGraph数据，这篇文章（推文）的主要内容是：开发者CARSON.hl发布了一个名为`opencode-memory`的只读OpenCode技能，该工具使用`sqlite3`数据库来直接查询和浏览本地的会话历史、计划及提示词记录，其核心特点是无需额外服务或隐藏的内存层，强调通过清晰、透明的查询方式管理AI交互历史，并认为实用的微小AI工具比“魔法”更有效。该推文获得了598个点赞和超过2.7万次浏览。",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "GitLab前CEO以“创始人模式”抗癌成功，公开25TB医疗数据",
+      "link": "https://twitter.com/vikingmute/status/2038223289806667940",
+      "description": "根据提供的OpenGraph数据，该推文讲述了GitLab联合创始人Sid Sijbrandij在45岁确诊罕见骨癌（骨肉瘤）后，经历标准治疗失败且复发、被医生告知无路可走的情况下，他并未放弃，而是辞去职务，以“创始人模式”主动主导治疗：组建专业团队、并行尝试多种前沿实验性疗法（如单细胞测序、类器官模型等），最终使癌症进入缓解状态。康复后他积极创业、投资并环游世界，同时公开了约25TB的个人全病程医疗数据。故事的核心价值在于强调在困境中应主动争取信息与治疗选项，而非被动依赖标准流程，体现了极强的行动力与自我负责精神。",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "深入Pretext代码库，提炼通用编程经验",
+      "link": "https://twitter.com/TAbrodi/status/2038222615815610691",
+      "description": "根据提供的OpenGraph信息，作者Tiger Abrodi深入研究了Pretext的代码库，并从中总结提炼出了一些具有普遍适用性的编程经验与教训，这些见解不仅限于Pretext本身，对其他类型的软件开发也具有借鉴意义。",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "两天从零构建Claude Code并拆解AI CLI",
+      "link": "https://twitter.com/IceBearMiner/status/2037888800341610684",
+      "description": "根据提供的OpenGraph信息，该推文的主要内容是：作者“小八”在两天内从零开始构建了一个名为“Claude Code”的AI命令行工具（CLI），并通过文章详细拆解了其生产级实现所需的核心组件与每一层的具体实现细节，重点探讨了SSE（服务器发送事件）缓冲区管理、系统提示词（system prompt）设计等关键技术点。",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "Pretext实现无DOM文本测量，破局Web性能瓶颈",
+      "link": "https://twitter.com/TAbrodi/status/2038028476411007398",
+      "description": "Tiger Abrodi在推文中深入探讨了Web性能优化中的核心挑战，指出浏览器布局阶段的文本测量（如换行和高度计算）是性能瓶颈，只能通过DOM操作获取，容易引发重排（reflow）导致卡顿，并举例说明了Slack、Google Docs和AI聊天应用中的实际影响；随后他介绍了Pretext——一个纯TypeScript库，无需DOM即可实现精确的文本测量和换行，为文本处理提供了高效的数学计算替代方案，从而避免布局开销，提升应用流畅度。",
+      "date": "2026-03-29"
     }
   ],
-  "last_update": "2026-03-29 09:00"
+  "last_update": "2026-03-30 09:00"
 }
