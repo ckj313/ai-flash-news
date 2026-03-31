@@ -114,15 +114,29 @@
             <a href="https://tech.armyja-online.uk/rss" class="rss-badge" target="_blank">
                 <span>📡</span> RSS 源
             </a>
-            <p class="last-update">最后更新：2026-03-30 09:01</p>
+            <p class="last-update">最后更新：2026-03-31 09:01</p>
         </header>
         
         <main id="content">
             
         <div class="day-section">
             <div class="day-header">
-                <span class="day-date">03月30日 (一)</span>
+                <span class="day-date">03月31日 (二)</span>
                 <span class="day-count">1 篇</span>
+            </div>
+            
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/jolestar/status/2038768002452389962" target="_blank" rel="noopener">轻量检索工具indexbind 支持灵活配置</a>
+                </div>
+                <div class="article-desc">作者分享了将 <code>mdorigin</code> 项目中的检索工具 <code>indexbind</code> 独立抽取出来的工作，该工具可嵌入应用或用于本地文件夹检索。其核心特点是采用轻量级方案（与需要GPU的重型embedding模型 <code>qmd</code> 相比），并提供了可根据查询长度智能决定是否启用向量检索的简单配置。技术上通过 <code>nodejs + rust + wasm</code> 实现，以兼顾本地原生性能与云端部署灵活性，并认为未来将高性...</div>
+            </div>
+        </div>
+
+        <div class="day-section">
+            <div class="day-header">
+                <span class="day-date">03月30日 (一)</span>
+                <span class="day-count">3 篇</span>
             </div>
             
             <div class="article">
@@ -130,6 +144,18 @@
                     <a href="https://twitter.com/carson3068/status/2037983385365188621" target="_blank" rel="noopener">发布OpenCode记忆技能 实现透明会话查询</a>
                 </div>
                 <div class="article-desc">根据提供的OpenGraph数据，这篇文章（推文）的主要内容是：开发者CARSON.hl发布了一个名为<code>opencode-memory</code>的只读OpenCode技能，该工具使用<code>sqlite3</code>数据库来直接查询和浏览本地的会话历史、计划及提示词记录，其核心特点是无需额外服务或隐藏的内存层，强调通过清晰、透明的查询方式管理AI交互历史，并认为实用的微小AI工具比“魔法”更有效。该推文获得了598个点赞...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/AYi_AInotes/status/2038629163578577364" target="_blank" rel="noopener">程序员7天用AI复现谷歌算法，开源实现性能跃升</a>
+                </div>
+                <div class="article-desc">根据提供的OpenGraph信息，该推文主要讲述了一位程序员Tom Turney仅用7天时间，借助Claude辅助，成功将谷歌一篇关于KV缓存压缩的论文实现了开源版本，其性能超越官方承诺，并在普通MacBook上实现了35B大模型的高效运行（KV缓存压缩4.6倍，推理速度提升3.7倍），而谷歌官方至今未公开代码。此事例被视为2026年个人结合AI工具挑战大厂核心技术的典型代表，该开源项目一周内获得...</div>
+            </div>
+            <div class="article">
+                <div class="article-title">
+                    <a href="https://twitter.com/AYi_AInotes/status/2038629163578577364" target="_blank" rel="noopener">Claude辅助程序员开源谷歌核心算法</a>
+                </div>
+                <div class="article-desc">这篇文章讲述了一位程序员Tom Turney仅用7天时间，借助AI工具Claude，将谷歌发布的KV缓存压缩理论论文转化为高效的开源实现。他不仅完成了核心算法与测试，还通过工程优化将推理速度提升3.7倍，并加入三项创新，使35B大模型能在普通MacBook上流畅运行，KV缓存压缩达4.6倍。该开源项目上线一周即获613星标，而谷歌官方至今未发布代码，体现了个人结合AI挑战大厂技术壁垒的典型案例。</div>
             </div>
         </div>
 
@@ -278,20 +304,6 @@
                     <a href="https://twitter.com/Cloudflare/status/2036429081214886183" target="_blank" rel="noopener">Cloudflare发布Dynamic Workers AI代码执行快百倍</a>
                 </div>
                 <div class="article-desc">根据OpenGraph数据，Cloudflare发布了一项名为Dynamic Workers的新技术，它允许在安全、轻量的隔离环境中执行AI生成的代码，其速度比传统容器快100倍。</div>
-            </div>
-        </div>
-
-        <div class="day-section">
-            <div class="day-header">
-                <span class="day-date">03月24日 (二)</span>
-                <span class="day-count">1 篇</span>
-            </div>
-            
-            <div class="article">
-                <div class="article-title">
-                    <a href="https://twitter.com/elliotchen100/status/2036242208559644804" target="_blank" rel="noopener">内存稀疏注意力架构五核心详解</a>
-                </div>
-                <div class="article-desc">根据提供的推文内容，这篇关于“Memory Sparse Attention”论文的技术文章，通过视频形式详细拆解了其核心架构，包括：将亿级Token的KV Cache压缩至可运行规模；采用GPU存放路由键、CPU存放内容的分层存储设计；实现从亿级Token中毫秒级检索相关文档的稀疏路由；将检索与生成合并为单一可微流程；以及通过Document-wise RoPE技术解决训练与推理序列长度不匹配的...</div>
             </div>
         </div>
         </main>
