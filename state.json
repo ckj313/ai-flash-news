@@ -731,7 +731,25 @@
       "link": "https://twitter.com/idoubicc/status/2040821048577565144",
       "description": "根据提供的OpenGraph信息，这篇文章是作者**idoubi**对其近三个月使用 **Claude Code 进行“Vibe Coding”（一种快速、直觉化的编程方式）** 的项目总结。文中提到他完成了几个有趣的项目，并特别关联了其之前撰写的关于用此方法开发桌面Agent的文章，同时提及了与 **WorkAny.ai** 平台的结合。文章旨在记录和分享这种高效、自动化开发模式的实践体验与成果。",
       "date": "2026-04-07"
+    },
+    {
+      "title": "Antropic推出AI服务，部分受限于浏览器环境",
+      "link": "https://twitter.com/dotey/status/2042017036931305667",
+      "description": "这条推文简要介绍了Anthropic最近发布的新产品——Claude Managed Agents。作者指出，该服务可以让用户只需告诉Anthropic自己想要的 AI 智能体功能，平台便会在云端完整搭建并管理整个基础设施，按使用量收费。作者以Sentry和Rakuten为例，说明他们在几周内就利用该工具上线了自动修复 Bug 的完整流程。整体而言，推文强调了此产品对 AI 智能体开发团队的便利性与潜在颠覆性。",
+      "date": "2026-04-09"
+    },
+    {
+      "title": "构建可扩展的行业代理框架：bub 方案的关键价值",
+      "link": "https://twitter.com/repsiace/status/2041707245621407984",
+      "description": "根据提供的HTML内容和OpenGraph数据，这篇文章的主要内容可以总结为：\n\n**这篇文章强调，随着越来越多的项目采用“harness engineering”等新旗号，文章本身的价值会不断提升。作者认为，行业问题并非单一或片面，因此仅靠一个“助手”或“解决方案”无法解决问题；关键在于提供稳定、可承载特定范式表达的构建块或框架（如作者提出的“bub”）。作者批评其他类似项目（如openclaw、hermes-agent）的单一性，主张通过一个灵活、易于定制的框架（bub）来服务更定制需求，避免被复杂概念或所谓“最佳实践”所绑架，让用户能轻松构建自己的代理产品或服务。**",
+      "date": "2026-04-09"
+    },
+    {
+      "title": "GLM‑5.1 开源模型突破性能巅峰",
+      "link": "https://twitter.com/Zai_org/status/2041550153354519022",
+      "description": "这篇文章是Z.ai (@Zai_org) 在X (原Twitter) 上发布的关于GLM-5.1的新闻，强调了其在开源模型中的顶尖性能，在SWE-Bench Pro、Terminal-Bench和NL2Repo测试中排名第一和第三。GLM-5.1专为处理长期任务设计，可以自主运行8小时，并不断通过数千次迭代来优化策略。文章还提供了相关链接，包括博客、模型权重、API以及代码计划，并预告了未来几天内该模型将登陆https://t.co/WCqWT0qCQb。该推文获得了9824个赞，1220个转发，460条回复和3376347次浏览。",
+      "date": "2026-04-09"
     }
   ],
-  "last_update": "2026-04-08 16:32"
+  "last_update": "2026-04-09 09:40"
 }
