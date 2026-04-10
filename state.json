@@ -779,7 +779,147 @@
       "link": "https://twitter.com/GergelyOrosz/status/2041932583378800717",
       "description": "文章探讨了因JavaScript限制调整AI工具，并强调AI对开发者工作的影响及持续应用。",
       "date": "2026-04-09"
+    },
+    {
+      "title": "Booking restaurants in the UK just got easier with AI in Search",
+      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/ai-mode-restaurants-uk/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Agentic_Bookings_hero.max-600x600.format-webp.webp\">We’re bringing new agentic capabilities to AI Mode in Search to help you book restaurant reservations.",
+      "date": "2026-04-10",
+      "source": "Google Blog"
+    },
+    {
+      "title": "Fitbit’s personal health coach is expanding to reach 37 countries and 32 languages.",
+      "link": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-personal-health-coach-expansion/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/fitbitphc_social.max-600x600.format-webp.webp\">The Fitbit personal health coach Public Preview is now in more regions and adds VO2 Max to help people track cardio performance.",
+      "date": "2026-04-10",
+      "source": "Google Blog"
+    },
+    {
+      "title": "How 400+ campuses are putting AI to work",
+      "link": "https://blog.google/products-and-platforms/products/education/google-ai-accelerator/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_1_wqi1al6.max-600x600.format-webp.webp\">The Google AI for Education Accelerator and Google AI Professional Certificate are bridging the gap between AI and the classroom.",
+      "date": "2026-04-10",
+      "source": "Google Blog"
+    },
+    {
+      "title": "The Gemini app can now generate interactive simulations and models.",
+      "link": "https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/1_Visualize_how_fractals_work.max-600x600.format-webp.webp\">Gemini can now transform your questions and complex topics into custom and interactive visualizations.",
+      "date": "2026-04-10",
+      "source": "Google Blog"
+    },
+    {
+      "title": "Introducing Learn Mode: your personal coding tutor in Google Colab",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/colab-updates/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ColabLearning_hero.max-600x600.format-webp.webp\">Two new improvements to Colab’s Gemini agent give you more control over how Google Colab works and how it helps you learn.",
+      "date": "2026-04-09",
+      "source": "Google Blog"
+    },
+    {
+      "title": "The new, AI-powered Google Finance is expanding to more than 100 countries.",
+      "link": "https://blog.google/products-and-platforms/products/search/google-finance-expansion/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/finance_marketing_landscape.max-600x600.format-webp.webp\">Google Finance brings AI tools to 100+ countries. Use AI to research stocks and follow live earnings in your preferred language.",
+      "date": "2026-04-08",
+      "source": "Google Blog"
+    },
+    {
+      "title": "Try notebooks in Gemini to easily keep track of projects",
+      "link": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Notebooks_header_2026_2096x1182.max-600x600.format-webp.webp\">Notebooks in Gemini give you a project base that connects the Gemini app with our AI-powered research partner, NotebookLM, for an easy workflow.",
+      "date": "2026-04-08",
+      "source": "Google Blog"
+    },
+    {
+      "title": "AI is changing retail. Here’s how businesses can keep up.",
+      "link": "https://blog.google/products/ads-commerce/retail-sales-ai/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Decoded_Podcast_-_Thumbnail_-_S.max-600x600.format-webp.webp\">How retailers can adapt to the rapidly evolving advertising landscape, on the Ads Decoded Podcast.",
+      "date": "2026-04-08",
+      "source": "Google Blog"
+    },
+    {
+      "title": "Get more done with new vertical tabs and immersive reading mode in Chrome",
+      "link": "https://blog.google/products-and-platforms/products/chrome/new-chrome-productivity-features/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_Header_Final.max-600x600.format-webp.webp\">These new features are designed to streamline your browser and help you maximize productivity in Chrome.",
+      "date": "2026-04-08",
+      "source": "Google Blog"
+    },
+    {
+      "title": "Here’s how we built Gmail to keep your data secure and private in the Gemini era.",
+      "link": "https://blog.google/products-and-platforms/products/gmail/privacy-in-gmail-with-gemini/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blake_SS_2.max-600x600.format-webp.webp\">Google doesn’t train Gemini using personal emails. Here’s how Google keeps private data secure in Gmail amid new AI model upgrades.",
+      "date": "2026-04-08",
+      "source": "Google Blog"
+    },
+    {
+      "title": "5 new features for Android XR",
+      "link": "https://blog.google/products-and-platforms/platforms/android/android-xr-immersive-features-update-april-2026/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Final_Hero_Image.max-600x600.format-webp.webp\">Android XR adds spatial conversion for 2D apps, the ability to pin apps to your walls and more ways to watch, create, and explore.",
+      "date": "2026-04-08",
+      "source": "Google Blog"
+    },
+    {
+      "title": "Expanding AI literacy to Catholic-school classrooms nationwide.",
+      "link": "https://blog.google/products-and-platforms/products/education/catholic-school-ai-literacy/",
+      "description": "The new Google Educator Group will make AI training available to 146,000 educators who will in turn serve 1.6 million students.",
+      "date": "2026-04-08",
+      "source": "Google Blog"
+    },
+    {
+      "title": "3 updates that make contributing to Maps easier",
+      "link": "https://blog.google/products-and-platforms/products/maps/contributor-updates/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/mapsupdates0407_hero.max-600x600.format-webp.webp\">We’re making it easier for people to share photos and videos, and keep track of their progress.",
+      "date": "2026-04-07",
+      "source": "Google Blog"
+    },
+    {
+      "title": "An update on our mental health work",
+      "link": "https://blog.google/innovation-and-ai/technology/health/mental-health-updates/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MentalHealth_042026_hero.max-600x600.format-webp.webp\">We’re sharing an update on our mental health work, including some new changes to better connect people with the right information.",
+      "date": "2026-04-07",
+      "source": "Google Blog"
+    },
+    {
+      "title": "Reaffirming our commitment to child safety in the face of European Union inaction",
+      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/reaffirming-commitment-to-child-safety/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Joint_Statement_CSAM_3_April_20.max-600x600.format-webp.webp\">Today, because of the expiry of the ePrivacy derogation enabling the use of technology to detect child sexual abuse material (CSAM), Europe risks leaving children across…",
+      "date": "2026-04-04",
+      "source": "Google Blog"
+    },
+    {
+      "title": "Gemma 4: Byte for byte, the most capable open models",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dar.max-600x600.format-webp.webp\">Gemma 4: our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.",
+      "date": "2026-04-03",
+      "source": "Google Blog"
+    },
+    {
+      "title": "New ways to balance cost and reliability in the Gemini API",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/cost_reliability_Gemini_API-soc.max-600x600.format-webp.webp\">Google is introducing two new inference tiers to the Gemini API, Flex and Priority,\nto balance cost and latency.",
+      "date": "2026-04-03",
+      "source": "Google Blog"
+    },
+    {
+      "title": "Create, edit and share videos at no cost in Google Vids",
+      "link": "https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Createeditandshare_Google_Vids_.max-600x600.format-webp.webp\">New AI capabilities are coming to Google Vids, powered by Lyria 3 and Veo 3.1, like high-quality video generation at no cost and more.",
+      "date": "2026-04-03",
+      "source": "Google Blog"
+    },
+    {
+      "title": "Here’s how to watch Coachella on YouTube.",
+      "link": "https://blog.google/products-and-platforms/products/youtube/watch-coachella-live-on-youtube/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/YT_Coachella_BlogPost_Op1_1920x.max-600x600.format-webp.webp\">Watch Coachella 2026 live on YouTube starting April 10. Stream stages in 4K, shop exclusive merch and join global watch parties.",
+      "date": "2026-04-02",
+      "source": "Google Blog"
+    },
+    {
+      "title": "Give your laptop a new life with ChromeOS Flex",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/sustainability/chromeos-flex-back-market-kit/",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/ChromeOSFlex-Hero_v2.png\">Google and Back Market's new USB kit makes it easy to install ChromeOS Flex, a free OS to revive your PC or Mac and reduce e-waste.",
+      "date": "2026-04-02",
+      "source": "Google Blog"
     }
   ],
-  "last_update": "2026-04-10 09:01"
+  "last_update": "2026-04-10 15:20"
 }

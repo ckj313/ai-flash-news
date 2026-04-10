@@ -10,7 +10,10 @@ from datetime import datetime, timezone, timedelta
 from collections import defaultdict
 import html
 
-RSS_URL = "https://tech.armyja-online.uk/rss"
+RSS_URLS = [
+    ("AI快报", "https://tech.armyja-online.uk/rss"),
+    ("Google Blog", "https://blog.google/rss"),
+]
 OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE_FILE = os.path.join(OUTPUT_DIR, "template.html")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "index.html")
@@ -44,7 +47,7 @@ def fetch_rss(url):
         return r.read().decode('utf-8')
 
 
-def parse_rss(xml_content):
+def parse_rss(xml_content, source_name=""):
     root = ET.fromstring(xml_content)
     articles = []
     for item in root.findall('.//item'):
@@ -59,15 +62,46 @@ def parse_rss(xml_content):
             dt = datetime.strptime(date_str, '%a, %d %b %Y %H:%M:%S %z')
             date_key = dt.astimezone(TZ).strftime('%Y-%m-%d')
         except:
-            date_key = datetime.now(TZ).strftime('%Y-%m-%d')
+            try:
+                dt = datetime.strptime(date_str, '%Y-%m-%dT%H:%M:%S%z')
+                date_key = dt.astimezone(TZ).strftime('%Y-%m-%d')
+            except:
+                date_key = datetime.now(TZ).strftime('%Y-%m-%d')
         
         article = {
             'title': title.text.replace('<![CDATA[', '').replace(']]>', '') if title is not None else '',
             'link': link.text if link is not None else '',
             'description': desc.text.replace('<![CDATA[', '').replace(']]>', '') if desc is not None else '',
-            'date': date_key
+            'date': date_key,
+            'source': source_name
         }
         articles.append(article)
+    
+    # 也尝试 atom:entry
+    for entry in root.findall('.//{http://www.w3.org/2005/Atom}entry'):
+        title = entry.find('{http://www.w3.org/2005/Atom}title')
+        link = entry.find('{http://www.w3.org/2005/Atom}link')
+        desc = entry.find('{http://www.w3.org/2005/Atom}summary')
+        pub_date = entry.find('{http://www.w3.org/2005/Atom}published')
+        
+        date_str = pub_date.text if pub_date is not None else ''
+        try:
+            dt = datetime.strptime(date_str, '%Y-%m-%dT%H:%M:%S%z')
+            date_key = dt.astimezone(TZ).strftime('%Y-%m-%d')
+        except:
+            date_key = datetime.now(TZ).strftime('%Y-%m-%d')
+        
+        link_url = link.get('href') if link is not None else ''
+        
+        article = {
+            'title': title.text if title is not None else '',
+            'link': link_url,
+            'description': desc.text if desc is not None else '',
+            'date': date_key,
+            'source': source_name
+        }
+        articles.append(article)
+    
     return articles
 
 
@@ -105,12 +139,15 @@ def generate_html(articles_by_date):
             desc = article['description'][:200] + '...' if len(article['description']) > 200 else article['description']
             title_html = markdown_to_html(article['title'])
             desc_html = markdown_to_html(desc)
+            source = article.get('source', '')
+            source_html = f'<span class="article-source">{source}</span>' if source else ''
             articles_html.append(f'''
             <div class="article">
                 <div class="article-title">
                     <a href="{article['link']}" target="_blank" rel="noopener">{title_html}</a>
                 </div>
                 <div class="article-desc">{desc_html}</div>
+                {source_html}
             </div>''')
         
         content_parts.append(f'''
@@ -128,34 +165,37 @@ def generate_html(articles_by_date):
 def main():
     print(f"[{datetime.now(TZ).strftime('%Y-%m-%d %H:%M')}] 开始生成 AI快报...")
     
-    # 获取 RSS
-    try:
-        xml_content = fetch_rss(RSS_URL)
-    except Exception as e:
-        print(f"获取RSS失败: {e}")
-        return
+    all_articles = []
     
-    # 解析文章
-    articles = parse_rss(xml_content)
-    print(f"获取到 {len(articles)} 篇文章")
+    # 获取所有 RSS 源
+    for source_name, rss_url in RSS_URLS:
+        try:
+            xml_content = fetch_rss(rss_url)
+            articles = parse_rss(xml_content, source_name)
+            print(f"  {source_name}: {len(articles)} 篇")
+            all_articles.extend(articles)
+        except Exception as e:
+            print(f"  {source_name}: 获取失败 - {e}")
+    
+    print(f"总共获取到 {len(all_articles)} 篇文章")
     
     # 加载状态
     state = load_state()
     existing_links = {a['link'] for a in state.get('articles', [])}
     
     # 合并新旧文章
-    all_articles = state.get('articles', [])
-    for article in articles:
+    saved_articles = state.get('articles', [])
+    for article in all_articles:
         if article['link'] not in existing_links:
-            all_articles.append(article)
+            saved_articles.append(article)
     
     # 只保留最近30天
     cutoff = (datetime.now(TZ) - timedelta(days=30)).strftime('%Y-%m-%d')
-    all_articles = [a for a in all_articles if a['date'] >= cutoff]
+    saved_articles = [a for a in saved_articles if a['date'] >= cutoff]
     
     # 按日期分组
     articles_by_date = defaultdict(list)
-    for article in all_articles:
+    for article in saved_articles:
         articles_by_date[article['date']].append(article)
     
     # 生成 HTML
@@ -175,7 +215,7 @@ def main():
         f.write(html)
     
     # 保存状态
-    state['articles'] = all_articles
+    state['articles'] = saved_articles
     state['last_update'] = update_time
     save_state(state)
     
