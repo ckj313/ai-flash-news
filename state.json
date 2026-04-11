@@ -919,7 +919,42 @@
       "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/ChromeOSFlex-Hero_v2.png\">Google and Back Market's new USB kit makes it easy to install ChromeOS Flex, a free OS to revive your PC or Mac and reduce e-waste.",
       "date": "2026-04-02",
       "source": "Google Blog"
+    },
+    {
+      "title": "YC 总裁开源个人 AI Agent 记忆系统",
+      "link": "https://twitter.com/AYi_AInotes/status/2042594992393458112",
+      "description": "YC总裁GarryTan开源了名为GBrain的生产级AI Agent记忆系统（MIT协议），允许免费使用，可管理大量个人数据如Markdown文件、人物档案和日历信息，用户可通过GitHub获取。",
+      "date": "2026-04-10",
+      "source": "AI快报"
+    },
+    {
+      "title": "llm-wiki v0.2.0 发布 超300星 新功能引领知识库升级",
+      "link": "https://twitter.com/nash_su/status/2042441606616568263",
+      "description": "这条推文宣布了开源项目 **llm‑wiki v0.2.0** 的发布，强调其在一天内收获 300+ 星标。新版本在原有 @karpathy llm‑wiki 方法论的基础上加入了 Louvain 社区检测、图谱洞察、Insights→Deep Research 联动、搜索质量提升以及多项 Bug 修复等功能，旨在进一步提升知识库的自动化研究与多格式文件兼容性。项目地址已公开，后续将继续朝自主研究和更好的文件支持方向发展。",
+      "date": "2026-04-10",
+      "source": "AI快报"
+    },
+    {
+      "title": "Markdown Viewer v3.0.0发布支持多功能",
+      "link": "https://twitter.com/xicilion/status/2042543312784232596",
+      "description": "文章指出网络环境限制可能导致功能障碍。",
+      "date": "2026-04-10",
+      "source": "AI快报"
+    },
+    {
+      "title": "两本书深度剖析Claude Code与Codex的Harness工程",
+      "link": "https://twitter.com/wquguru/status/2039333332987810103",
+      "description": "这篇文章主要介绍了两本书籍，分别是《Harness Engineering——Claude Code 设计指南》和《Claude Code 和 Codex 的 Harness 设计哲学——殊途同归，还是各表一枝》。这两本书深入解析和对比了 Claude Code 和 Codex 的 Harness 工程，强调了理解其背后的设计哲学而非仅仅是功能对比的重要性。前者关注 Claude Code 如何将不稳定模型收束进可持续的工程秩序，后者则比较两套 AI coding harness 的设计差异，指出简单功能对照表无法体现系统骨架的不同。文章还提供了 Github 仓库和在线阅读链接。",
+      "date": "2026-04-10",
+      "source": "AI快报"
+    },
+    {
+      "title": "Claude Code与Codex Harness设计哲学对比",
+      "link": "https://twitter.com/wquguru/status/2039333332987810103",
+      "description": "文章探讨了技术限制与对比分析，结合现有信息指出技术挑战及不同工具的异同，同时引用相关资源，整体聚焦于技术方案优化与学术讨论。",
+      "date": "2026-04-10",
+      "source": "AI快报"
     }
   ],
-  "last_update": "2026-04-10 15:20"
+  "last_update": "2026-04-11 09:04"
 }
