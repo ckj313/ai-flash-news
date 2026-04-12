@@ -954,7 +954,28 @@
       "description": "文章探讨了技术限制与对比分析，结合现有信息指出技术挑战及不同工具的异同，同时引用相关资源，整体聚焦于技术方案优化与学术讨论。",
       "date": "2026-04-10",
       "source": "AI快报"
+    },
+    {
+      "title": "AI自动化流程优化",
+      "link": "https://twitter.com/geniusvczh/status/2042905731503177863",
+      "description": "AI应该被积极、大规模地使用，关键在于先准备好文档和明确的问题定义及接受标准，然后用单一的 prompt 或流程图把大事自动化完成，且不依赖聊天记录。",
+      "date": "2026-04-12",
+      "source": "AI快报"
+    },
+    {
+      "title": "AI 暴力使用，自动化流程图\n\n(Or, a more direct translation of the tweet&#39;s core idea)\n\nAI 自动化：定义明确，流程图驱动",
+      "link": "https://twitter.com/geniusvczh/status/2042905731503177863",
+      "description": "这篇文章的主要内容是：作者geniusvczh分享了关于AI应用的观点，强调应该“暴力使用”AI，不怕token消耗多，自动化很重要。他建议为项目准备好文档，小事可以在一个prompt中迭代完成，大事则可以编写agent将多个prompt嵌入流程图来完成，关键在于问题定义清晰和验收标准严格，不依赖聊天记录。",
+      "date": "2026-04-12",
+      "source": "AI快报"
+    },
+    {
+      "title": "pi设计艺术：关键决策解析",
+      "link": "https://twitter.com/blackanger/status/2042798803506598269",
+      "description": "这篇文章是对《pi 的设计艺术》这本书的介绍，它把一次名为 **pi** 的运行时在设计过程中的关键决策写成了设计艺术的章节，每一章都围绕一个具体的设计问题展开，并通过对背后原理的解释来呈现代码；源码仅在必要时出现，以便阐明“为什么这样做”。整体上，作者尝试从一种独特的视角（设计视角）来阐释 pi 运行时的构建思路，而不是单纯的源码导读或 API 文档。",
+      "date": "2026-04-11",
+      "source": "AI快报"
     }
   ],
-  "last_update": "2026-04-11 09:04"
+  "last_update": "2026-04-12 09:00"
 }
