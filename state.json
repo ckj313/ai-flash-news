@@ -289,108 +289,6 @@
       "date": "2026-03-15"
     },
     {
-      "title": "Dokobot上线 安全高效读取网页",
-      "link": "https://twitter.com/supezen/status/2032824859227771011",
-      "description": "Dokobot是一款新产品，通过结合Chrome CDP和Treewalker技术，为AI agent提供安全高效的网页内容读取方案，解决了现有方法在反爬、登录页访问和安全隐患等方面的缺陷，能读取用户已登录的网页（如Gmail、Notion）并输出AI友好的Markdown格式，显著节省token消耗；产品目前已稳定开放注册，提供免费套餐和使用彩蛋。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "开源OpenClaw控制中心",
-      "link": "https://twitter.com/ai_muzi/status/2032032878855348702",
-      "description": "根据提供的OpenGraph数据，该推文的主要内容是：开发者“木子不写代码”开源了一个自用的**OpenClaw控制中心**，这是一个统一的面板工具，用于监控和管理OpenClaw系统。其核心功能包括：查看各任务消耗的token比例、监控系统整体健康状态、实时查看每个Agent的运行状态（是否卡住）、查看Agent使用的模型、目录和权限，以及直接查看和修改Agent的记忆、人设和任务文档，同时还能监控定时任务和心跳任务的运行情况。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "LLM无上下文推理：关键科学突破",
-      "link": "https://twitter.com/NeelNanda5/status/2032749947733557691",
-      "description": "根据提供的OpenGraph数据，这条推文的核心内容是：Neel Nanda 强调了“离上下文推理”是理解大语言模型工作原理中最引人入胜的进展之一，并推荐了一篇由该现象的主要发现者之一 Owain Evans 撰写的优秀入门文章。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "xiaohongshu-cli工具升级，新增多项交互功能",
-      "link": "https://twitter.com/jakevin7/status/2032330774196981833",
-      "description": "这篇推文主要介绍了作者对小红书命令行工具 `xiaohongshu-cli` 进行的一次重要迭代更新：简化了架构回归纯 CLI 但保留了关键状态能力，补充了覆盖真实连续场景的冒烟测试，并新增了点赞、收藏、评论等短索引交互功能，同时吸收了社区建议重构了代码以避免功能回退，当前最新版本为 v0.6.3。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "卡比卡比发布微博命令行工具",
-      "link": "https://twitter.com/jakevin7/status/2032815300052189583",
-      "description": "根据提供的OpenGraph数据，该推文主要介绍了作者`@jakevin7`开发的一款名为“weibo CLI”的命令行工具，它允许用户在终端中浏览微博热搜、热门时间线、用户主页及评论。此工具是其个人“社交平台CLI全家桶”项目的一部分（已涵盖Twitter、B站、小红书等平台），未来计划扩展至新闻源，旨在方便其个人进行投资开发与研究。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "五代理并发 Code Factory 实现全自动编码交付",
-      "link": "https://twitter.com/ryancarson/status/2031755002205655511",
-      "description": "根据提供的OpenGraph数据，Ryan Carson在推文中分享了他如何搭建一个名为“Code Factory”的系统，该系统能同时运行5个智能体（agents），实现代码的自动编写与部署（“write/ship 100% of our code”）。他使用了开源的Symphony框架、Codex Mac应用以及Linear工具，仅用2-3天便完成设置，目前系统已高效运转。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "AI遗忘中间信息",
-      "link": "https://twitter.com/jakevin7/status/2032779857952645477",
-      "description": "根据提供的OpenGraph信息，该推文的核心内容是探讨大语言模型在处理长文本时存在的“位置偏见”现象：当关键信息位于文本开头或结尾时，模型通常能正确回答相关问题；但若关键信息被置于文本中间，模型则更容易因“遗忘”而给出错误答案。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "从ChatGPT到Claude Cowork设置指南",
-      "link": "https://twitter.com/Xuegaogx/status/2032666333989712136",
-      "description": "根据提供的OpenGraph信息，这篇由原文作者@rubenhassid撰写、@Xuegaogx翻译注释的文章，标题为《如何设置 Claude Cowork（从 ChatGPT 进阶的完整指南）》，主要内容是指导用户如何在从ChatGPT切换到Claude后，全面掌握并使用Claude的Cowork功能，并提及该功能发布时曾引发软件股市场剧烈波动的背景。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "优质网站解析Claude动态图表",
-      "link": "https://twitter.com/himself65/status/2032694192196169967",
-      "description": "根据提供的推文内容，该推文主要提及用户研究了Claude应用动态图表的实现方式，并发现了一个编写得很好的相关技术网站。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "AI技能管理工具SkillDeck开源",
-      "link": "https://twitter.com/GitHub_Daily/status/2032758692765147575",
-      "description": "SkillDeck是一个开源的可视化技能管理桌面客户端，解决了在多个AI编程助手（如Claude Code、Codex、Gemini CLI、Cursor等10款工具）间切换时手动编辑配置文件和链接的麻烦。它允许用户统一管理技能，通过一键操作完成安装、更新和分配，并内置技能市场浏览器、分屏式SKILL.md编辑器（左侧表单右侧实时预览）以及文件系统监控自动同步功能。该应用支持macOS 14及以上系统，可通过通用二进制包、Homebrew或源码编译安装。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "Claude Code架构治理实践",
-      "link": "https://twitter.com/HiTw93/status/2032091246588518683",
-      "description": "根据提供的 OpenGraph 数据，这篇文章是作者 Tw93 基于半年深度使用 Claude Code（并付费）的经验分享，主要探讨了其**架构设计、治理方式以及实际的工程实践**，旨在揭示一些不为人知的细节，并总结踩坑经验与使用心得。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "Ghostty成Claude Code最佳搭档",
-      "link": "https://twitter.com/BruceBlue/status/2032703807189299694",
-      "description": "这篇文章介绍了Ghostty，称其为Claude Code的最佳搭档，主要针对开发者在终端运行缓慢和Claude生成代码时输出混乱的痛点，提供解决方案以提升编码效率和体验。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "Reddit命令行工具发布",
-      "link": "https://twitter.com/jakevin7/status/2032751167302746369",
-      "description": "这篇推文由作者卡比卡比（@jakevin7）发布，主要介绍了他开发的Reddit命令行界面（CLI）工具，该工具允许用户在终端中直接操作Reddit，包括查看feed、浏览subreddit、搜索帖子、阅读评论树、导出结果以及进行upvote、save、subscribe等基础交互；作者还强调了工具的细节优势，如短索引操作（例如`rdt show 3`）、自动从浏览器提取cookies登录、支持JSON/YAML格式以方便脚本和AI代理使用，并呼吁用户多多反馈问题和功能需求，同时请求转发以扩大受众（尤其针对国外用户），最后提及自己近期忙碌于学习和开发。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "Okmain：Oklab与K-means提取图片美观主色调",
-      "link": "https://twitter.com/jakevin7/status/2032713222730461574",
-      "description": "这篇文章介绍了 Okmain，一个使用 Oklab 色彩空间和 K-means 聚类从图片中提取美观主色调的 Rust 库，它通过避免在错误色彩空间做数学运算并结合聚类与智能排序，在100毫秒内解决了传统缩放方法导致的颜色暗淡问题。同时，作者分享了使用 Claude Opus 进行 AI coding 的开发心得：LLM 在编写调试工具等机械性任务上高效，但在需要精确控制（如 auto-vectorisation）和抽象设计场景中表现不佳，常“自信地犯错”，最终需手动重写核心热路径。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "OpenClaw 2026.3.13版本发布 新增Chrome会话附加与Android重设计",
-      "link": "https://twitter.com/openclaw/status/2032693636119302396",
-      "description": "根据提供的OpenGraph数据，该推文（发布于2026年3月13日）主要宣布了OpenClaw项目的多项更新，包括：支持实时Chrome会话附加（无需扩展）、Android应用重新设计并缩减至7MB、iOS新增欢迎页面、Docker时区覆盖功能，以及对Windows网关的调整，并附带了相关链接。推文获得了约1.2万次点赞及近10万次浏览。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "Chrome 146支持agent直接操控浏览器",
-      "link": "https://x.com/wong2__/status/2032697322451382324",
-      "description": "Chrome最新版146引入了新功能，使agent能够方便地操控当前浏览器，无需再启动单独Chrome实例或安装第三方扩展；具体步骤为：先打开chrome://inspect/#remote-debugging开启远程调试，再安装agent-browser skill或chrome-devtools-mcp工具，即可自动连接到已有的Chrome实例。",
-      "date": "2026-03-14"
-    },
-    {
-      "title": "AI记忆困局：向量存储与嵌入技术远不足够",
-      "link": "https://twitter.com/jakevin7/status/2032342979890016561",
-      "description": "根据提供的 OpenGraph 数据，这篇文章的核心观点是：随着 AI Agent 和个性化 AI 的兴起，**AI Memory（AI 记忆系统）** 成为关键方向，但作者认为当前主流的“**Vector Store + Embedding（向量存储与嵌入）**”方案存在根本性局限，远远不足以应对构建真正有效、可靠的长期记忆系统所面临的真正难点。",
-      "date": "2026-03-14"
-    },
-    {
       "title": "Firecracker快照与CoW fork打造亚毫秒级AI沙箱，兼顾安全低延迟",
       "link": "https://twitter.com/QingQ77/status/2034580389742944576",
       "description": "根据提供的OpenGraph信息，该推文介绍了一种名为“zeroboot”的技术方案：它通过将Firecracker虚拟机快照作为基础镜像，并利用写时复制（CoW）fork机制快速创建新的KVM虚拟机，旨在为AI代理（agent）提供一个兼具亚毫秒级启动速度和强安全性的代码执行沙箱环境。作者认为该方案在通常难以兼得的“低延迟”与“安全性”之间取得了有效平衡。",
@@ -975,7 +873,14 @@
       "description": "这篇文章是对《pi 的设计艺术》这本书的介绍，它把一次名为 **pi** 的运行时在设计过程中的关键决策写成了设计艺术的章节，每一章都围绕一个具体的设计问题展开，并通过对背后原理的解释来呈现代码；源码仅在必要时出现，以便阐明“为什么这样做”。整体上，作者尝试从一种独特的视角（设计视角）来阐释 pi 运行时的构建思路，而不是单纯的源码导读或 API 文档。",
       "date": "2026-04-11",
       "source": "AI快报"
+    },
+    {
+      "title": "ModelScope发布轻量级多语言文本到语音模型MOSS-TTS-Nano",
+      "link": "https://twitter.com/ModelScope2022/status/2043605089441489263",
+      "description": "这条推文介绍了新推出的 MOSS‑TTS‑Nano 0.1B 多语言文本转语音模型，强调其不需要 GPU 也能在 CPU 上实时生成语音，适合本地演示、Web 服务或轻量级产品集成。MOSS‑TTS‑Nano 是 MOSS‑TTS 系列的入门级模型，另外还有 1.7B 和 8B 的旗舰版本。推文附带了模型的 GitHub 链接、中文社区链接以及演示链接，并展示了相当不错的互动数据（149 赞、23 转推等）。",
+      "date": "2026-04-13",
+      "source": "AI快报"
     }
   ],
-  "last_update": "2026-04-13 09:03"
+  "last_update": "2026-04-14 09:01"
 }
