@@ -169,126 +169,6 @@
       "date": "2026-03-16"
     },
     {
-      "title": "夸克网盘GitHub全自动发布工具开源",
-      "link": "https://twitter.com/gxjdian/status/2032767664435900662",
-      "description": "根据提供的OpenGraph数据，该推文主要介绍了一款名为“夸克网盘+GitHub一条龙全自动发布工具（v1.2.0）”的开源软件，其核心功能是实现网盘内容转存、自动归类、TG通知及站点更新等流程的全自动化，并附有面向新手的详细操作教程。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "OpenClaw月提特斯拉",
-      "link": "https://twitter.com/onehopeA9/status/2032820424678191137",
-      "description": "根据提供的OpenGraph数据，该推文的主要内容是：作者OneHopeA9在AI焦虑与大厂裁员的背景下，选择“ALL IN”一个名为OpenClaw的项目，并在短短一个月内成功赚够了购买特斯拉的费用，文后附有从起步到成功的完整复盘过程。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "郭宇上线vibe编程直播平台vibelab",
-      "link": "https://twitter.com/turingou/status/2033178790961246229",
-      "description": "该推文宣布作者郭宇上线了第11个产品“vibelab”，这是一个专为vibe coder设计的云端沙箱直播平台，主播可在云端环境编程并与观众共享终端，基于其开源的sandbank cloud构建，支持claude code等编码工具、快照保存状态及GitHub自动化，作者计划每日在此直播并邀请博主内测。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "NotebookLM提示词开源合集 收录15种风格PPT生成方案",
-      "link": "https://twitter.com/GitHub_Daily/status/2033121066168848446",
-      "description": "这篇推文由GitHubDaily分享，介绍了GitHub上一个名为“Awesome NotebookLM Prompts”的开源资源合集，该合集整理了超过15种不同风格的PPT生成提示词，包括商务风、街头潮流、极简主义、复古未来、运动能量等视觉风格，每种都配有详细的设计规范和实际案例，涵盖色彩搭配、排版规则、字体层级、图标风格、布局变体等设计定义信息，并提供了针对学术报告、产品发布会等不同场景的使用建议，链接已附上供参考。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "AI画架构图：WebMCP与webmcp-bridge",
-      "link": "https://twitter.com/jolestar/status/2033126720157704327",
-      "description": "根据提供的标题和预览信息，这篇文章主要讲述了作者在探索使用AI辅助绘制架构图的过程中，介绍了**WebMCP**及其相关工具**webmcp-bridge**，旨在分享如何借助这些工具实现AI与架构图设计的结合。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "OpenCLI v0.4.0发布：AI主动探测破解B站字幕API",
-      "link": "https://twitter.com/jakevin7/status/2033127300649148850",
-      "description": "OpenCLI v0.4.0 发布，这是一个将网站转换为命令行工具的开源项目，本次更新重点解决了 AI 自动发现 API 时的被动嗅探失败问题，通过引入交互式探测（模拟点击触发懒加载）、空值断言惩罚假成功响应、级联请求模板等改进，成功实现了如 B 站视频字幕的一行命令快速获取，同时优化了性能（如 MutationObserver 监听 DOM、劫持 fetch/XHR），使工具更智能高效。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "AI技能自我迭代，维护时间省80%",
-      "link": "https://twitter.com/AYi_AInotes/status/2032809666174963924",
-      "description": "这篇文章的核心观点是：传统的AI技能开发模式（如写死`SKILL.md`并手动迭代）已难以适应快速变化的环境（模型更新、API变更等），容易导致技能无声失效；而新兴的“活的技能系统”范式（如cognee-skills的思路）主张让AI技能具备自我观察失败并自动迭代进化的能力，从而大幅降低维护成本，这标志着AI技能底层逻辑的重要变革。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "破解AI对话导出限制 提取工具发布",
-      "link": "https://twitter.com/jijiamoer113397/status/2033112298580238535",
-      "description": "作者摩尔在使用Windsurf和Antigravity写代码时，因官方导出功能无法查看thinking内容和时间戳，逆向存储格式开发了两个提取工具，可将数据导入@NowledgeMem进行知识管理，并邀请用户star支持。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "复刻Claude生成式UI交互",
-      "link": "https://twitter.com/op7418/status/2033113845120807170",
-      "description": "根据提供的OpenGraph信息，该推文的主要内容是：开发者“歸藏(guizang.ai)”复现了Anthropic在Claude中最新推出的“生成式UI交互”功能，该功能可在对话流中嵌入可视化交互界面来展示概念与信息，相比纯文本更易理解。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "OpenCLI v0.3发布，新增十余站点支持",
-      "link": "https://twitter.com/jakevin7/status/2033097082077143419",
-      "description": "根据提供的OpenGraph数据，该推文主要介绍了开源工具 **OpenCLI** 从 v0.1 到 v0.3 的重大版本更新，核心改进包括：彻底打通硬核网站底层提取（支持 TS Register 和复杂清洗）、实现 Network Interception 以获取纯净 API 数据、增强浏览器交互桥接（支持指纹浏览器）、重构 Tab 资源管理防止内存泄漏，并一口气扩展支持了包括 Twitter、B站、YouTube、Reddit 等在内的 10 多个新站点，同时为 AI 和开发者新增了 `tap` 指令与 `Deep Explore` 等调试及模板生成功能，最新版本为 **v0.3.0**。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "LandingAI发布视觉优先文档提取指南",
-      "link": "https://twitter.com/shao__meng/status/2032973780533105061",
-      "description": "根据提供的推文内容，LandingAI 发布了一份关于其 **Agentic Document Extraction (ADE)** 方案的完整指南。该方案的核心是采用 **“Vision-First”（视觉优先）** 的技术架构，即以文档的视觉布局和空间关系作为首要信息源，而非依赖单纯的OCR文本或黑箱式大模型，旨在将高度多样化的非结构化文档（如财务报表、医疗记录、合同、保险表单）转化为可直接消费的结构化数据，以满足高精度和强监管场景的需求。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "动手做skill 分享即朋友",
-      "link": "https://twitter.com/yangyi/status/2032772763048620215",
-      "description": "根据提供的OpenGraph数据，该推文的核心内容是：**作者Yangyi鼓励开发者动手制作并分享自己开发的技能（skill）或命令行工具（cli），并以此作为建立社区联系的契机，呼吁大家将作品发布在评论区以互相交流。**",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "开发者逆向Outlook发布无API命令行工具",
-      "link": "https://twitter.com/eyupyusufa/status/2032549315906850873",
-      "description": "根据提供的OpenGraph数据，该推文主要介绍了开发者Yusuf Altunbıçak（@eyupyusufa）发布的一个开源项目：他通过逆向工程Outlook的内部API，构建了一个功能强大的命令行界面（CLI）工具。该工具无需官方API密钥或管理员授权，提供超过50个命令，可全面管理邮件、日历、分类、定时发送和签名等，其功能与体验据称优于微软官方的MCP（Microsoft Cloud Protocol）。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "无生物学背景男子凭AI治愈犬癌，挑战传统制药",
-      "link": "https://twitter.com/IterIntellectus/status/2032858964858228817",
-      "description": "一位澳大利亚技术爱好者领养了一只癌症晚期的救援狗，花费3000美元测序其肿瘤DNA，利用ChatGPT和AlphaFold分析并设计了个性化mRNA癌症疫苗，在克服伦理审批后治疗成功使肿瘤减半、狗恢复健康，教授对此惊叹并质疑为何不推广至人类，这突显了AI与生物技术结合在疾病治疗中的革命性潜力。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "OpenClaw多Agent组建飞书员工军团",
-      "link": "https://twitter.com/liyue_ai/status/2032838652519481455",
-      "description": "根据提供的OpenGraph信息，该推文的主要内容是：作者李岳（@liyue_ai）分享了一篇关于 **OpenClaw 多智能体（Agent）实践教程**，核心探讨了在使用 OpenClaw 组建类似“飞书员工军团”的多Agent系统时，遇到的**记忆管理难题**——即当同一个Agent对话过多时，即使安装了Mem0等记忆插件，仍因记忆内容过多过长而导致混乱，并可能介绍了相应的解决方案或实操经验。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "AI需睡眠才能真正懂你",
-      "link": "https://twitter.com/Tz_2022/status/2032915472010629188",
-      "description": "根据提供的标题和预览内容，这篇文章的核心观点是：当前的AI系统如同一个只知不断记录信息却从不休息的“永醒者”，导致它难以真正理解用户——例如会向素食者推荐烤肉，或经过长时间交互后仍停留在对用户的初始认知。作者认为，AI必须引入类似人类“睡眠与做梦”的机制（即记忆整合与模式重组过程），才能实现深度的个性化理解与持续学习。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "Clippy变身AI编码助手",
-      "link": "https://twitter.com/mrblock/status/2032817260453310504",
-      "description": "根据提供的OpenGraph数据，这是一篇关于名为“Masko Code”的免费开源macOS小工具的介绍。该工具将经典的微软Clippy助手转变为Claude Code AI编码代理的贴心助手，主要功能包括自动监控AI执行进度、通过可爱通知处理权限请求、自动跳转至正确终端位置，并支持自定义动画和角色，旨在为使用Claude Code的开发者节省操作步骤、增添乐趣。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "AI原生CLI实现全网站命令行化",
-      "link": "https://twitter.com/jakevin7/status/2032936880115736883",
-      "description": "该推文介绍了一个名为 **OpenCLI** 的 AI Native CLI 工具，它能够将任何网站转换为命令行接口，让 AI Agent 或自动化工具（如“龙虾”）直接探索并操作网站功能（例如 B 站的收藏、历史等），通过 Playwright MCP bridge 插件操控浏览器以规避风控，并利用 Accessibility Tree 实现高效过滤与 Token 节约，从而实现对网站信息的无缝访问与定制化命令开发。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "bb-browser：直接操控浏览器获取网站信息",
-      "link": "https://twitter.com/yan5xu/status/2032858943874281782",
-      "description": "根据提供的OpenGraph数据，文章主要内容是介绍一个名为“bb-browser”的命令行工具，它通过Chrome插件与CDP协议直接操控用户已登录的真实浏览器，从而绕过登录态和鉴权问题，实现对Reddit、Twitter、GitHub等50多个网站信息的直接命令行访问，并可通过guide命令与AI代理结合实现网站CLI化。",
-      "date": "2026-03-15"
-    },
-    {
-      "title": "Claude交互式UI原理分析与开源实现",
-      "link": "https://twitter.com/Gorden_Sun/status/2032829589253447985",
-      "description": "这篇文章分析了Claude交互式UI的原理，发现其本质是工具调用，通过直接注入DOM实现流式渲染（而非使用iframe），并严格限定UI规范（如禁止渐变和阴影）以保证效果；同时介绍了一个开源实现，该方案采用iframe方式，虽然不能实时渲染且较为笨重，但能兼容各家大语言模型。",
-      "date": "2026-03-15"
-    },
-    {
       "title": "Firecracker快照与CoW fork打造亚毫秒级AI沙箱，兼顾安全低延迟",
       "link": "https://twitter.com/QingQ77/status/2034580389742944576",
       "description": "根据提供的OpenGraph信息，该推文介绍了一种名为“zeroboot”的技术方案：它通过将Firecracker虚拟机快照作为基础镜像，并利用写时复制（CoW）fork机制快速创建新的KVM虚拟机，旨在为AI代理（agent）提供一个兼具亚毫秒级启动速度和强安全性的代码执行沙箱环境。作者认为该方案在通常难以兼得的“低延迟”与“安全性”之间取得了有效平衡。",
@@ -880,7 +760,21 @@
       "description": "这条推文介绍了新推出的 MOSS‑TTS‑Nano 0.1B 多语言文本转语音模型，强调其不需要 GPU 也能在 CPU 上实时生成语音，适合本地演示、Web 服务或轻量级产品集成。MOSS‑TTS‑Nano 是 MOSS‑TTS 系列的入门级模型，另外还有 1.7B 和 8B 的旗舰版本。推文附带了模型的 GitHub 链接、中文社区链接以及演示链接，并展示了相当不错的互动数据（149 赞、23 转推等）。",
       "date": "2026-04-13",
       "source": "AI快报"
+    },
+    {
+      "title": "AI优先不是假象：CREAO的真实实践",
+      "link": "https://twitter.com/chenchengpro/status/2044052175555571888",
+      "description": "这篇文章主要讲述了Peter Pang领导的CREAO公司如何真正实现“AI优先”的实践。这家25人的公司，通过将多个仓库合并为monorepo、利用AI进行代码审查、自动修复错误以及替代人工QA等方式，将开发流程彻底重塑，实现了平均每天3-8次的生产部署，用户参与度和转化率显著提升。这种模式下，团队角色也发生了变化，架构师和运维者成为核心，初级工程师适应性更强，最终使得创始人从管理转向亲自编写代码，展现了未来一人公司可能普遍化的趋势。",
+      "date": "2026-04-14",
+      "source": "AI快报"
+    },
+    {
+      "title": "Rust 移植 Claude Code Agent 实践",
+      "link": "https://twitter.com/ilovek8s/status/2043885565389701235",
+      "description": "这篇文章分享了使用 Claude Code Agent Team 进行大型项目移植的实践，以 mihomo（Clash Meta）代理内核的 Rust 移植为例，涵盖了角色分工、里程碑规划、CLAUDE.md 与 Memory 系统的效率调优等内容，是 yihong 老哥频道分享的优秀文章。",
+      "date": "2026-04-14",
+      "source": "AI快报"
     }
   ],
-  "last_update": "2026-04-14 09:01"
+  "last_update": "2026-04-15 09:07"
 }
