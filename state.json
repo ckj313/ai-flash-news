@@ -127,48 +127,6 @@
       "date": "2026-03-17"
     },
     {
-      "title": "AI时代红利：技术广度决定程序员未来",
-      "link": "https://twitter.com/riba2534/status/2033281446866223610",
-      "description": "该推文的核心观点是：在AI时代，程序员最大的优势在于拥有跨领域的技术广度，能够将不同领域的知识融会贯通并借助AI放大效果；作者以“全自动逆向混淆WASM签名算法”为例说明这一趋势，并警告仅会编码而缺乏其他技能的程序员将被淘汰。",
-      "date": "2026-03-16"
-    },
-    {
-      "title": "7元月租纯净住宅IP实测指南",
-      "link": "https://twitter.com/jaylenngx/status/2033379663264035068",
-      "description": "根据提供的OpenGraph信息，该推文是系列指南的第二部分，主要介绍了如何以最低每月7元人民币的成本获取和配置“纯净住宅IP”，并分享了作者通过实际测试找到的一个表现良好的IP地址（163.123.201.18），同时涉及该IP的质量检测方法及其在多个平台上的使用指南。",
-      "date": "2026-03-16"
-    },
-    {
-      "title": "信息卡让OpenClaw信息筛选更直观",
-      "link": "https://twitter.com/shao__meng/status/2033387423364005932",
-      "description": "根据提供的OpenGraph数据，这篇推文主要介绍了作者（@shao__meng）所推广的“信息卡”（Info Card）工具或方法。其核心是将 **MiniMax** 与 **OpenClaw** 结合使用，通过信息卡更直观地筛选和展示OpenClaw获取的信息，从而实现选择性深入阅读。作者还分享了用于生成信息卡图片和Remotion视频的完整提示词与教程链接，并感谢了 @hylarucoder 的分享。\n\n（注：由于HTML内容为Twitter的通用错误提示，未包含具体推文正文，以上总结完全基于提供的OpenGraph元数据推断得出。）",
-      "date": "2026-03-16"
-    },
-    {
-      "title": "清华开源AI虚拟课堂系统OpenMAIC",
-      "link": "https://twitter.com/aigclink/status/2033377706763808958",
-      "description": "清华大学最新开源项目OpenMAIC是一个AI多智能体互动课堂系统，能够根据任何主题或文档自动生成完整的互动课程，包括幻灯片讲义、测验、HTML交互式模拟和项目制学习内容；它模拟真实虚拟教室，配备AI老师和AI同学，支持语音讲解、白板绘图写公式、主动发起讨论或点名发言、进行圆桌辩论等功能，并集成了OpenClaw以便在飞书、Slack、Telegram等平台直接生成课堂，旨在将教育从传统慕课视频时代升级到与AI共同上课的虚拟课堂时代。",
-      "date": "2026-03-16"
-    },
-    {
-      "title": "全自动研究闭环系统发布",
-      "link": "https://twitter.com/shao__meng/status/2033344885319930084",
-      "description": "该推文介绍了一个名为“AutoResearchClaw”的开源项目，它实现了从“一个想法”到“完整会议论文”的全自动、端到端研究闭环。该系统自动化完成了文献综述、假设生成、真实实验执行、结果分析、模拟同行评审、论文撰写及引用验证等全部流程，无需人工干预，并具备硬件自适应、多智能体对抗辩论、自学习与结果监控等核心特性，最终输出符合NeurIPS/ICML等会议格式的完整论文包。",
-      "date": "2026-03-16"
-    },
-    {
-      "title": "LangChain开源Deep Agents 仿Claude Code构建",
-      "link": "https://twitter.com/hasantoxr/status/2033213054859792859",
-      "description": "LangChain开源了一个名为Deep Agents的MIT许可框架，它重现了Claude Code的核心工作流程，为开发者提供了一个开放系统来构建和修改编码代理。该框架包括任务分解计划工具、文件系统访问、带沙箱的shell命令执行、并行子代理以及上下文过长时的自动摘要功能，并且是模型无关的，可插入不同LLM进行实验，作者推荐此仓库作为理解编码代理结构或探索代理框架的实用参考。",
-      "date": "2026-03-16"
-    },
-    {
-      "title": "OpenCLI v0.4.4 正式发布",
-      "link": "https://twitter.com/jakevin7/status/2033234460850745481",
-      "description": "OpenCLI v0.4.4版本发布，该工具可将任何网站转换为命令行界面，新增11个命令（总数达57个），并进行了三阶段性能优化（包括智能滚动、编译懒加载引擎和批量IPC获取），增强了连接层（如CDP自动发现和反爬绕过），同时支持Twitter等网站的读写操作、YAML输出，并将文档拆分为探索式开发和单次使用模式。",
-      "date": "2026-03-16"
-    },
-    {
       "title": "Firecracker快照与CoW fork打造亚毫秒级AI沙箱，兼顾安全低延迟",
       "link": "https://twitter.com/QingQ77/status/2034580389742944576",
       "description": "根据提供的OpenGraph信息，该推文介绍了一种名为“zeroboot”的技术方案：它通过将Firecracker虚拟机快照作为基础镜像，并利用写时复制（CoW）fork机制快速创建新的KVM虚拟机，旨在为AI代理（agent）提供一个兼具亚毫秒级启动速度和强安全性的代码执行沙箱环境。作者认为该方案在通常难以兼得的“低延迟”与“安全性”之间取得了有效平衡。",
@@ -776,5 +734,5 @@
       "source": "AI快报"
     }
   ],
-  "last_update": "2026-04-15 09:07"
+  "last_update": "2026-04-16 09:08"
 }
