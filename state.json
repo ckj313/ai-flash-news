@@ -67,66 +67,6 @@
       "date": "2026-03-18"
     },
     {
-      "title": "远程Mac高效操作：反重力与Peekaboo方案",
-      "link": "https://twitter.com/YuLin807/status/2028760797040505017",
-      "description": "本文介绍了一种远程控制 Mac 的方案，核心是通过两个 Bash 脚本实现远程操作，其功能包括截屏识图、执行命令、修改代码、管理应用，并集成 Antigravity 工具调用免费 AI（如 Gemini/Opus）审查代码；同时强调在 Mac 生态中必须配合使用 OpenClaw 的 UI 自动化工具 Peekaboo 才能流畅操作，否则可能产生额外费用。",
-      "date": "2026-03-17"
-    },
-    {
-      "title": "Unsloth Studio开源发布 实现大模型本地训练运行",
-      "link": "https://twitter.com/UnslothAI/status/2033926272481718523",
-      "description": "根据提供的OpenGraph数据，该推文主要介绍了**Unsloth AI**发布的一款名为**Unsloth Studio**的开源Web UI工具，用于在本地（Mac/Windows/Linux）训练和运行大语言模型（LLM）。其核心功能包括：以更少显存（70% VRAM）实现2倍以上的训练加速（支持500+模型）、支持GGUF/视觉/音频/嵌入等多种模型、自动从PDF/CSV/DOCX创建数据集、具备自愈功能的工具调用与代码执行，以及支持模型对比与导出为GGUF格式。该工具目前已在Hugging Face、NVIDIA、Docker和Colab平台上线，并提供GitHub仓库与详细博客指南。",
-      "date": "2026-03-17"
-    },
-    {
-      "title": "NotebookLM：研究笔记PPT神器",
-      "link": "https://twitter.com/Formulasearch/status/2033884676415496346",
-      "description": "根据提供的标题与预览信息，这篇文章是一篇关于 **NotebookLM** 的快速入门教程。NotebookLM 是谷歌推出的一款 AI 笔记与研究助手，其核心功能是允许用户上传自己的文档、资料进行深度分析、总结与问答，从而辅助研究、笔记整理乃至 PPT 制作，这与普通的通用聊天 AI 有本质区别。文章旨在指导读者如何快速上手使用这一工具。",
-      "date": "2026-03-17"
-    },
-    {
-      "title": "AI逆向分析悟空App技术架构",
-      "link": "https://twitter.com/nash_su/status/2033806469796167758",
-      "description": "根据提供的OpenGraph数据，该推文的主要内容是：作者通过逆向工程的方法，分析了由钉钉团队开发、内部代号为&#34;Real&#34;、对外品牌为&#34;悟空&#34;（Wukong）的AI Agent桌面客户端的技术架构，具体包括对其App Bundle结构、二进制符号、动态库依赖及资源文件的解析。",
-      "date": "2026-03-17"
-    },
-    {
-      "title": "X用户nash_su发推",
-      "link": "https://twitter.com/nash_su/status/2033806469796167758",
-      "description": "根据提供的页面内容，该链接指向 X（原 Twitter）平台的一条推文（status），但由于浏览器中 JavaScript 被禁用或隐私扩展干扰，页面未能正常加载，仅显示错误提示和网站通用页脚信息，因此无法获知该条推文的具体内容或主题。",
-      "date": "2026-03-17"
-    },
-    {
-      "title": "逆向分析阿里悟空App技术架构",
-      "link": "https://twitter.com/nash_su/status/2033806469796167758",
-      "description": "这篇文章通过逆向工程方法，详细分析了由钉钉团队开发、内部代号“Real”、对外品牌为“悟空”（Wukong）的AI Agent桌面客户端的技术架构，具体包括其App Bundle结构、二进制符号、动态库依赖及资源文件。",
-      "date": "2026-03-17"
-    },
-    {
-      "title": "AI逆向分析阿里悟空App技术架构",
-      "link": "https://twitter.com/nash_su/status/2033806469796167758",
-      "description": "这篇推文由用户 nash_su 发布，主要内容是对阿里巴巴旗下钉钉团队开发的 AI Agent 桌面客户端“悟空”（内部代号 Real）进行技术逆向分析，重点解析了其 App Bundle 结构、二进制符号、动态库依赖及资源文件等架构细节。",
-      "date": "2026-03-17"
-    },
-    {
-      "title": "实用UXC技能：Chrome DevTools MCP与Playwright MCP",
-      "link": "https://twitter.com/jolestar/status/2033795809259724838",
-      "description": "根据提供的OpenGraph数据，该推文主要介绍了作者`jolestar`创建的两个实用的浏览器自动化工具（称为“UXC Skill”），分别是基于 Chrome DevTools 的 `chrome-devtools-mcp-skill` 和基于 Playwright 的 `playwright-mcp-skill`，旨在提升开发或测试的效率。",
-      "date": "2026-03-17"
-    },
-    {
-      "title": "UXC推出双浏览器MCP技能",
-      "link": "https://twitter.com/jolestar/status/2033795809259724838",
-      "description": "根据提供的 OpenGraph 数据，该推文主要介绍了作者将 **Chrome DevTools MCP** 和 **Playwright MCP** 封装成了两个实用的 UXC 浏览器技能（分别为 `chrome-devtools-mcp-skill` 和 `playwright-mcp-skill`），并简要说明了它们的分工。文章核心在于分享这两种基于模型上下文协议（MCP）的浏览器自动化与调试工具的集成与应用尝试。",
-      "date": "2026-03-17"
-    },
-    {
-      "title": "Anthropic开放13门免费AI课程",
-      "link": "https://x.com/AYi_AInotes/status/2033412304067510736",
-      "description": "根据提供的 Opengraph 数据，该推文主要分享了 Anthropic（Claude 母公司）开放了**13 门免费的 AI 课程及认证**，内容涵盖 Claude 入门、AI 通识、智能体开发、API 实战、模型上下文协议（MCP）等，并针对学生、教育工作者及非营利组织等不同群体提供了专项学习路径，同时还包括与亚马逊云、谷歌云合作的认证课程，旨在为不同需求的用户提供系统化的 AI 学习资源。",
-      "date": "2026-03-17"
-    },
-    {
       "title": "Firecracker快照与CoW fork打造亚毫秒级AI沙箱，兼顾安全低延迟",
       "link": "https://twitter.com/QingQ77/status/2034580389742944576",
       "description": "根据提供的OpenGraph信息，该推文介绍了一种名为“zeroboot”的技术方案：它通过将Firecracker虚拟机快照作为基础镜像，并利用写时复制（CoW）fork机制快速创建新的KVM虚拟机，旨在为AI代理（agent）提供一个兼具亚毫秒级启动速度和强安全性的代码执行沙箱环境。作者认为该方案在通常难以兼得的“低延迟”与“安全性”之间取得了有效平衡。",
@@ -732,7 +672,14 @@
       "description": "这篇文章分享了使用 Claude Code Agent Team 进行大型项目移植的实践，以 mihomo（Clash Meta）代理内核的 Rust 移植为例，涵盖了角色分工、里程碑规划、CLAUDE.md 与 Memory 系统的效率调优等内容，是 yihong 老哥频道分享的优秀文章。",
       "date": "2026-04-14",
       "source": "AI快报"
+    },
+    {
+      "title": "**阿里巴巴Qwen3.6开源啦！** \n\n(Alibaba Qwen 3.6 is Open Source!)\n\n\n\n**Explanation:**\n\n*   The content indicates a tweet announcing the release of Qwen3.6-35B-A3B.\n*   The Open Graph data confirms this announcement, stating &#34;⚡ Meet Qwen3.6-35B-A3B：Now Open-Source！🚀🚀&#34;.\n*   The title is short, concise, and uses headline-style language.\n*   It&#39;s in Chinese, as requested.",
+      "link": "https://twitter.com/Alibaba_Qwen/status/2044768734234243427",
+      "description": "这篇推文介绍了阿里巴巴推出的开源大模型 Qwen 3.6‑35B‑A3B，它是一种稀疏 MoE（Mixture‑of‑Experts）模型，总参数量 35 B，实际激活参数约 3 B，采用 Apache 2.0 许可证。该模型在代码生成、视觉感知与推理、多模态思考等方面表现出色，效率高、功能强大且适用范围广，并提供了博客、Qwen Studio、HuggingFace 与 ModelScope 的链接供用户试用和获取更多信息。",
+      "date": "2026-04-16",
+      "source": "AI快报"
     }
   ],
-  "last_update": "2026-04-16 09:08"
+  "last_update": "2026-04-17 09:06"
 }
