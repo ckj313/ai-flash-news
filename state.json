@@ -1,36 +1,6 @@
 {
   "articles": [
     {
-      "title": "Karpathy：写代码非正确动词",
-      "link": "https://twitter.com/dotey/status/2035141635713941927",
-      "description": "根据提供的OpenGraph数据，这篇推文的核心内容是：OpenAI联合创始人、前特斯拉AI总监安德烈·卡帕西（Andrej Karpathy）表示，自2024年12月起他基本不再手写代码，并认为“写代码”已不再是描述当前开发方式的准确动词，这反映了他作为独立AI研究者对AI工具深度融入编程流程的实践与观点。",
-      "date": "2026-03-21"
-    },
-    {
-      "title": "SkillCraft赋能AI自主造工具",
-      "link": "https://twitter.com/shiqi_chen17/status/2035024651093778648",
-      "description": "这篇推文分享了SkillCraft的研究背景与核心思想：作者团队此前在用大模型进行具身RL（如推箱子）时，发现瓶颈在于模型无法自主从环境字符串中提取坐标（grounding问题），而依赖人工先验提供坐标虽有效但非根本解。他们由此提出“工具的本质是压缩”，并设计了Toolathlon基准与`save_skill`、`get_skill`、`list_skills`、`execute_skill`四个极简协议，旨在让模型能自主发现需求、创造并复用工具（技能），从而激发其“造工具的智能”。",
-      "date": "2026-03-21"
-    },
-    {
-      "title": "SkillCraft让大模型自主造工具",
-      "link": "https://twitter.com/shiqi_chen17/status/2035024651093778648",
-      "description": "这篇文章由Shiqi Chen分享，主要讲述了其团队在开发SkillCraft项目过程中的核心思路：他们早期在具身LLM代理的强化学习实验中，发现模型因无法从原始环境字符串中自主提取坐标信息（即grounding问题）而难以学习，曾不得不手动修改渲染以提供坐标。受此启发，他们希望模型能**自主发现自身认知瓶颈并“创造工具”来压缩重复性认知开销**。为此，他们设计了四个极简协议（save_skill、get_skill、list_skills、execute_skill），使模型能够自主发现、存储和复用自己构造出的工具，并基于Toolathlon基准构建任务进行系统评测，最终形成了SkillCraft这一研究框架。",
-      "date": "2026-03-21"
-    },
-    {
-      "title": "HopChain多跳数据合成实现视觉推理泛化跃升",
-      "link": "https://twitter.com/ShenzhiWang_THU/status/2035200123329028229",
-      "description": "本文介绍了为提升视觉语言模型（VLM）在长链推理（long-CoT）中的泛化能力而提出的 **HopChain** 框架。该框架通过合成结合“感知级跳”与“实例链跳”的多跳问答数据，强制模型在推理过程中持续回到图像进行视觉锚定，以系统性地训练其长链视觉推理的核心基础能力。在 Qwen3.5 模型的 RLVR 训练中加入 HopChain 数据后，在 24 个跨领域基准测试中实现了广泛提升（20/24 个基准性能提高），尤其在长链和超长链视觉推理任务上增益显著（最高提升超过 50 个准确率点），证明超越特定 benchmarks 设计的外部分布（OOD）代理任务能作为可扩展且泛化性强的 RLVR 监督源。",
-      "date": "2026-03-21"
-    },
-    {
-      "title": "清华学子X平台发文",
-      "link": "https://twitter.com/ShenzhiWang_THU/status/2035200123329028229",
-      "description": "由于提供的HTML内容仅为Twitter（X）的JavaScript禁用提示页面，未包含推文本身的具体文字、图片或视频信息，因此无法总结该推文（URL指向用户`ShenzhiWang_THU`于`2023年7月`发布的状态）的实际主要内容。建议在启用JavaScript的环境下直接访问该链接以获取完整内容。",
-      "date": "2026-03-21"
-    },
-    {
       "title": "YC CEO开源AI技能框架全网疯传",
       "link": "https://twitter.com/PandaTalk8/status/2035228582461809141",
       "description": "根据提供的OpenGraph信息，这篇文章主要介绍了由Y Combinator（YC）现任CEO开源的一套AI技能工作流程框架，该框架覆盖了CEO、设计师、程序员等多角色的工作方法，作者Mr Panda在研究和实践后分享了他的使用体验与推荐。",
@@ -537,5 +507,5 @@
       "source": "AI快报"
     }
   ],
-  "last_update": "2026-04-20 09:08"
+  "last_update": "2026-04-21 09:01"
 }
