@@ -1,12 +1,6 @@
 {
   "articles": [
     {
-      "title": "YC CEO开源AI技能框架全网疯传",
-      "link": "https://twitter.com/PandaTalk8/status/2035228582461809141",
-      "description": "根据提供的OpenGraph信息，这篇文章主要介绍了由Y Combinator（YC）现任CEO开源的一套AI技能工作流程框架，该框架覆盖了CEO、设计师、程序员等多角色的工作方法，作者Mr Panda在研究和实践后分享了他的使用体验与推荐。",
-      "date": "2026-03-22"
-    },
-    {
       "title": "信息卡制作完整方法开源",
       "link": "https://twitter.com/shao__meng/status/2035720327037108673",
       "description": "作者meng shao在推文中介绍了一个开源项目「infocard-skills」，这是一个用于生成多比例信息卡（支持16/9、4/3、1/1等常见比例）和封面设计的AI Skill，用户只需输入内容和比例要求（默认4/3），AI Agent即可自动生成HTML并截图输出PNG格式，同时提供了样例供用户调整样式风格并鼓励沉淀更新到Skill中。",
@@ -505,7 +499,14 @@
       "description": "这篇推文介绍了阿里巴巴推出的开源大模型 Qwen 3.6‑35B‑A3B，它是一种稀疏 MoE（Mixture‑of‑Experts）模型，总参数量 35 B，实际激活参数约 3 B，采用 Apache 2.0 许可证。该模型在代码生成、视觉感知与推理、多模态思考等方面表现出色，效率高、功能强大且适用范围广，并提供了博客、Qwen Studio、HuggingFace 与 ModelScope 的链接供用户试用和获取更多信息。",
       "date": "2026-04-16",
       "source": "AI快报"
+    },
+    {
+      "title": "Kimi K2.6发布：开源编码突破新高度",
+      "link": "https://twitter.com/Kimi_Moonshot/status/2046249571882500354",
+      "description": "这篇文章介绍了Kimi_Moonshot在Twitter上发布的最新动态，重点展示了他们K2.6版发布的新功能和开放源码亮点，涵盖高性能计算、丰富的第三方工具支持以及广泛的应用领域。",
+      "date": "2026-04-21",
+      "source": "AI快报"
     }
   ],
-  "last_update": "2026-04-21 09:01"
+  "last_update": "2026-04-22 09:02"
 }
