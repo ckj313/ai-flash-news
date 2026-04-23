@@ -1,18 +1,6 @@
 {
   "articles": [
     {
-      "title": "信息卡制作完整方法开源",
-      "link": "https://twitter.com/shao__meng/status/2035720327037108673",
-      "description": "作者meng shao在推文中介绍了一个开源项目「infocard-skills」，这是一个用于生成多比例信息卡（支持16/9、4/3、1/1等常见比例）和封面设计的AI Skill，用户只需输入内容和比例要求（默认4/3），AI Agent即可自动生成HTML并截图输出PNG格式，同时提供了样例供用户调整样式风格并鼓励沉淀更新到Skill中。",
-      "date": "2026-03-23"
-    },
-    {
-      "title": "AI游戏工作室模板开源 赋能独立开发者",
-      "link": "https://twitter.com/AYi_AInotes/status/2035671729872527711",
-      "description": "这条推文介绍了一个名为“Claude Code Game Studios”的开源GitHub项目，该项目通过48个AI智能体完整复刻了游戏工作室的组织架构与全流程开发体系（涵盖创意、技术、制作、测试等岗位），并提供自动化校验、文档模板及引擎适配方案，使开发者仅需负责核心决策，即可低成本调用专业团队完成游戏开发，项目遵循MIT协议可商用。",
-      "date": "2026-03-23"
-    },
-    {
       "title": "Cloudflare发布Dynamic Workers AI代码执行快百倍",
       "link": "https://twitter.com/Cloudflare/status/2036429081214886183",
       "description": "根据OpenGraph数据，Cloudflare发布了一项名为Dynamic Workers的新技术，它允许在安全、轻量的隔离环境中执行AI生成的代码，其速度比传统容器快100倍。",
@@ -506,7 +494,14 @@
       "description": "这篇文章介绍了Kimi_Moonshot在Twitter上发布的最新动态，重点展示了他们K2.6版发布的新功能和开放源码亮点，涵盖高性能计算、丰富的第三方工具支持以及广泛的应用领域。",
       "date": "2026-04-21",
       "source": "AI快报"
+    },
+    {
+      "title": "C++/ggml投机采样解码器实现Qwen3.5-27B极速推理",
+      "link": "https://twitter.com/pupposandro/status/2046265763611181543",
+      "description": "该文章介绍了作者如何利用 C++ 与 ggml 实现 Qwen3.5‑27B（Q4_K_M）模型的独立推理解码器，并通过 DFlash 块扩散机制在单张 RTX 3090（24 GB）上达到约 207.6 token/s 的高速推理，显著提升了推理效率。",
+      "date": "2026-04-22",
+      "source": "AI快报"
     }
   ],
-  "last_update": "2026-04-22 09:02"
+  "last_update": "2026-04-23 09:09"
 }
