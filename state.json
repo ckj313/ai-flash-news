@@ -7,12 +7,6 @@
       "date": "2026-03-25"
     },
     {
-      "title": "内存稀疏注意力架构五核心详解",
-      "link": "https://twitter.com/elliotchen100/status/2036242208559644804",
-      "description": "根据提供的推文内容，这篇关于“Memory Sparse Attention”论文的技术文章，通过视频形式详细拆解了其核心架构，包括：将亿级Token的KV Cache压缩至可运行规模；采用GPU存放路由键、CPU存放内容的分层存储设计；实现从亿级Token中毫秒级检索相关文档的稀疏路由；将检索与生成合并为单一可微流程；以及通过Document-wise RoPE技术解决训练与推理序列长度不匹配的问题。该文被认为是目前对该技术最完整的硬核解析。",
-      "date": "2026-03-24"
-    },
-    {
       "title": "个人AI绘图工具扩展至11种风格",
       "link": "https://twitter.com/AAAAAAAJtoy/status/2036840620485173274",
       "description": "根据提供的OpenGraph数据，该推文的主要内容是：开发者AJ（@AAAAAAAJtoy）分享了一个自研的AI图像生成工具，该工具结合了自定义的“skill”与“nano banana”API，可快速生成图片，目前支持11种风格并持续更新，其GitHub链接已置于评论区。该推文获得了较多浏览（近2万次）和互动。",
@@ -501,7 +495,14 @@
       "description": "该文章介绍了作者如何利用 C++ 与 ggml 实现 Qwen3.5‑27B（Q4_K_M）模型的独立推理解码器，并通过 DFlash 块扩散机制在单张 RTX 3090（24 GB）上达到约 207.6 token/s 的高速推理，显著提升了推理效率。",
       "date": "2026-04-22",
       "source": "AI快报"
+    },
+    {
+      "title": "OpenAI推出GPT‑5.5，开启新智能时代",
+      "link": "https://twitter.com/OpenAI/status/2047376561205325845",
+      "description": "这篇推文宣布了 GPT‑5.5 的发布，称其是一种面向实际工作和驱动智能体的新型智能模型，具备理解复杂目标、使用工具、核查结果并完整执行多任务的能力，标志着计算机工作方式的全新转变。目前已经在 ChatGPT 和 Codex 中上线。",
+      "date": "2026-04-24",
+      "source": "AI快报"
     }
   ],
-  "last_update": "2026-04-23 09:09"
+  "last_update": "2026-04-24 09:03"
 }
