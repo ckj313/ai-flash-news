@@ -1,12 +1,6 @@
 {
   "articles": [
     {
-      "title": "Cloudflare发布Dynamic Workers AI代码执行快百倍",
-      "link": "https://twitter.com/Cloudflare/status/2036429081214886183",
-      "description": "根据OpenGraph数据，Cloudflare发布了一项名为Dynamic Workers的新技术，它允许在安全、轻量的隔离环境中执行AI生成的代码，其速度比传统容器快100倍。",
-      "date": "2026-03-25"
-    },
-    {
       "title": "个人AI绘图工具扩展至11种风格",
       "link": "https://twitter.com/AAAAAAAJtoy/status/2036840620485173274",
       "description": "根据提供的OpenGraph数据，该推文的主要内容是：开发者AJ（@AAAAAAAJtoy）分享了一个自研的AI图像生成工具，该工具结合了自定义的“skill”与“nano banana”API，可快速生成图片，目前支持11种风格并持续更新，其GitHub链接已置于评论区。该推文获得了较多浏览（近2万次）和互动。",
@@ -502,7 +496,28 @@
       "description": "这篇推文宣布了 GPT‑5.5 的发布，称其是一种面向实际工作和驱动智能体的新型智能模型，具备理解复杂目标、使用工具、核查结果并完整执行多任务的能力，标志着计算机工作方式的全新转变。目前已经在 ChatGPT 和 Codex 中上线。",
       "date": "2026-04-24",
       "source": "AI快报"
+    },
+    {
+      "title": "AI 范式巨变：从Chatbot到Agent时代\n\nThis title is concise and reflects the core message from the provided Open Graph data regarding Luo Fuli&#39;s interview and the shift in AI paradigm. It&#39;s suitable as a news headline.",
+      "link": "https://twitter.com/SaitoWu/status/2047661042680172627",
+      "description": "你提供的该网页是X（原推特）平台用户SaitoWu（@SaitoWu）的推文页面，由于浏览器禁用了JavaScript，页面仅显示需要启用JS或更换支持浏览器才能继续访问的提示，未加载出推文实际内容；结合附加的OpenGraph信息可知，这条推文是博主看完小珺对小米大模型负责人罗福莉的深度访谈后的分享，提及罗福莉在访谈中明确指出2026年AI范式已发生本质巨变，从预训练主导的Chatbot时代彻底转向后训练主导的Agent时代，该推文当前获得50次点赞、10次转发、1条回复、51451次浏览。",
+      "date": "2026-04-25",
+      "source": "AI快报"
+    },
+    {
+      "title": "罗福莉：AI范式巨变",
+      "link": "https://twitter.com/SaitoWu/status/2047661042680172627",
+      "description": "罗福莉在访谈中阐述了 AI 范式的巨变——从以预训练为主导的聊天机器人时代，转向以后训练为核心的 Agent 时代，并对 2026 年 AI 的本质演进作出明确展望。",
+      "date": "2026-04-25",
+      "source": "AI快报"
+    },
+    {
+      "title": "罗福莉：AI 范式巨变，从聊天机器人到智能Agent时代\n\n**解释：**\n\n*   **标题:** 结合了Opengraph数据中的“Title”和“Tweet”内容，以及根据内容推测的“AI范式巨变”主题。\n*   **简洁性:** 标题尽量简洁，符合报纸标题的风格。\n*   **中文:** 标题是中文的。\n*   **避免引号:** 标题中没有使用引号。",
+      "link": "https://twitter.com/SaitoWu/status/2047661042680172627",
+      "description": "文章标题为“罗福莉：AI 范式已然巨变！”，主要内容是作者在听完对小珺的深度访谈后总结的观点，核心在于指出2026年AI的本质变化已从以预训练主导的Chatbot时代，彻底转向后训练主导的Agent时代，信息量密集且具有前瞻性。",
+      "date": "2026-04-24",
+      "source": "AI快报"
     }
   ],
-  "last_update": "2026-04-24 09:03"
+  "last_update": "2026-04-25 09:10"
 }
