@@ -1,40 +1,10 @@
 {
   "articles": [
     {
-      "title": "Cloudflare新推Secrets Store，根治API密钥泄露",
-      "link": "https://twitter.com/vikingmute/status/2037161263625888066",
-      "description": "本文介绍了Cloudflare推出的新服务Secrets Store，它允许在Worker间全局共享密钥，支持基于角色的访问控制（RBAC），并可在运行时动态异步获取密钥，从而避免将敏感信息常驻内存，显著提升安全性。作者认为该服务结合Cloudflare的Dynamic Workers与`globalOutbound`钩子，能完美解决AI Agent场景下的API密钥泄露问题。",
-      "date": "2026-03-27"
-    },
-    {
       "title": "Anthropic的Rust实践：AI代码上生产",
       "link": "https://twitter.com/blackanger/status/2037560517514961051",
       "description": "根据提供的 OpenGraph 数据，该文章主要深入分析了 Anthropic 公司在 2026 年初公开的一系列 Rust 项目与工程实践，重点探讨了其如何利用 AI（如 Claude agent）编写并生产级部署代码，并通过并行构建等具体案例，拆解了 AI 辅助软件工程的实际方法与价值。",
       "date": "2026-03-28"
-    },
-    {
-      "title": "Claude Code四层安全决策机制曝光",
-      "link": "https://twitter.com/chenchengpro/status/2036620474034319615",
-      "description": "根据提供的OpenGraph数据，该推文的核心内容是作者逆向分析了Claude Code 2.1.81的源码，发现其工具调用存在一个四层决策流水线，核心是一个由独立AI（Sonnet）执行的安全分类器，该分类器内置了详尽的拦截与放行规则，并采用两阶段分析和熔断机制，其本质是“用一个AI监督另一个AI的每一步操作”。",
-      "date": "2026-03-27"
-    },
-    {
-      "title": "AI监督AI：Claude Code四层决策流水线揭秘",
-      "link": "https://twitter.com/chenchengpro/status/2036620474034319615",
-      "description": "该推文作者通过逆向分析 Claude Code 2.1.81 源码，揭示了其安全机制的核心设计：采用四层决策流水线（权限规则、acceptEdits 模式、只读工具白名单、Sonnet 安全分类）和两阶段分类器（快速判断与深度分析），并配备熔断机制，本质上是用 AI 监督 AI 的每一步操作以防止高风险行为。",
-      "date": "2026-03-27"
-    },
-    {
-      "title": "Claude Code四层决策流水线曝光",
-      "link": "https://twitter.com/chenchengpro/status/2036620474034319615",
-      "description": "陈成逆向分析了Claude Code 2.1.81的源码，揭示其Auto Mode通过四层决策流水线确保工具调用安全：先查权限规则直接放行，再模拟acceptEdits模式跳过低风险操作，然后对只读工具白名单无条件放行，最后才请求Sonnet进行安全分类；分类器采用两阶段设计（快速判断与深度分析），并设有熔断机制（如连续拒绝则降级或终止），本质是用一个AI监督另一个AI的每一步操作，以平衡效率与安全。",
-      "date": "2026-03-27"
-    },
-    {
-      "title": "OpenCow开源 AI First任务智能体平台",
-      "link": "https://twitter.com/Will_Yang_/status/2037424146788045214",
-      "description": "根据提供的OpenGraph数据，这篇文章的主要内容是：**开发者Will Yang宣布其团队开源了名为OpenCow的“AI First”任务驱动智能体平台，该平台支持一任务一智能体、内置AI浏览器辅助运营、并集成了Claude Code等工具，旨在帮助产研、营销等各类团队以AI优先的方式高效工作，同时提供了GitHub和官网链接。**",
-      "date": "2026-03-27"
     },
     {
       "title": "本地个人搜索引擎Spool开源",
@@ -504,5 +474,5 @@
       "source": "AI快报"
     }
   ],
-  "last_update": "2026-04-26 09:06"
+  "last_update": "2026-04-27 09:02"
 }
